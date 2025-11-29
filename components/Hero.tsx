@@ -16,15 +16,12 @@ const Hero: React.FC = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
           </span>
-          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">For Established Coaches, Communities & Course Sellers</span>
+          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">For Coaches, Communities & Course Sellers</span>
         </div>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
-          Scale Your Agency To <br />
-          <span className="bg-gradient-to-r from-brand-300 via-brand-500 to-accent-500 bg-clip-text text-transparent">
-            $100k/Month
-          </span>
-        </h1>
+        <h2 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
+          We'll Generate $50k Worth Of New Cutomers & Clients For Your Info-Business Each Month With a Low-Ticket System<br />
+        </h2>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed font-light">
           We build automated client acquisition infrastructures for B2B agencies. 

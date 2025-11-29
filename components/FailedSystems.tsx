@@ -7,14 +7,17 @@ const FailedSystems: React.FC = () => {
         <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
             
             <div className="max-w-3xl w-full text-center mb-16">
-                <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-8">
+                <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-10 leading-tight">
                     Systems You Might've <br />
-                    <span className="text-slate-400">Tried Before...</span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Tried Before...</span>
                 </h2>
                 
-                <p className="text-slate-300 text-lg md:text-xl leading-relaxed">
+                <p className="text-slate-300 text-left md:text-xl leading-relaxed">
                     You've likely tried to bridge the trust gap with brute force, relying on methods that demand high trust before you've earned it. Does this look familiar?
                 </p>
+            </div>
+
+            <div>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 text-left w-full max-w-6xl">
