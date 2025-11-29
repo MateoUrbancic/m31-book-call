@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, DollarSign, XCircle, PhoneOff, Magnet, ArrowRight, ShieldAlert, UserX } from 'lucide-react';
+import { User, DollarSign, XCircle } from 'lucide-react';
 
 const TrustGap: React.FC = () => {
   return (
@@ -10,17 +10,19 @@ const TrustGap: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         
         {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-4">
-            The Invisible Trust Gap
-          </h2>
-          <p className="text-slate-400 text-lg md:text-xl font-light">
-            Why standard high-ticket funnels fail miserably with cold traffic.
-          </p>
+        <div className="flex flex-col items-center text-center mb-16">
+          <div className="max-w-3xl">
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-4">
+              The Invisible Trust Gap
+            </h2>
+            <p className="text-slate-400 text-lg md:text-xl font-light">
+              Why standard high-ticket funnels fail miserably with cold traffic.
+            </p>
+          </div>
         </div>
 
         {/* The Gap Visualization */}
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-12 items-stretch max-w-5xl mx-auto mb-20 relative">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-12 items-stretch max-w-5xl mx-auto relative">
           
           {/* Connector Visual (Desktop only) */}
           <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 flex-col items-center justify-center">
@@ -86,42 +88,6 @@ const TrustGap: React.FC = () => {
             </div>
           </div>
 
-        </div>
-
-        {/* Consequences Row */}
-        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {/* Item 1 */}
-            <div className="bg-slate-900/30 p-6 rounded-2xl border border-white/5 hover:border-red-500/20 hover:bg-slate-900/80 transition-all group">
-                <div className="mb-4 text-red-400/70 group-hover:text-red-500 group-hover:scale-110 transition-all duration-300 origin-left">
-                    <UserX className="w-8 h-8" />
-                </div>
-                <h4 className="text-lg font-bold text-white mb-2 font-display">Ghosted Webinars</h4>
-                <p className="text-sm text-slate-400 leading-relaxed">
-                    70% of registrants never show up because they don't value your time yet.
-                </p>
-            </div>
-
-            {/* Item 2 */}
-            <div className="bg-slate-900/30 p-6 rounded-2xl border border-white/5 hover:border-red-500/20 hover:bg-slate-900/80 transition-all group">
-                <div className="mb-4 text-red-400/70 group-hover:text-red-500 group-hover:scale-110 transition-all duration-300 origin-left">
-                    <PhoneOff className="w-8 h-8" />
-                </div>
-                <h4 className="text-lg font-bold text-white mb-2 font-display">Costly Sales Calls</h4>
-                <p className="text-sm text-slate-400 leading-relaxed">
-                    $200+ per booking, and half of them don't even pick up the phone.
-                </p>
-            </div>
-
-            {/* Item 3 */}
-            <div className="bg-slate-900/30 p-6 rounded-2xl border border-white/5 hover:border-red-500/20 hover:bg-slate-900/80 transition-all group">
-                <div className="mb-4 text-red-400/70 group-hover:text-red-500 group-hover:scale-110 transition-all duration-300 origin-left">
-                    <Magnet className="w-8 h-8" />
-                </div>
-                <h4 className="text-lg font-bold text-white mb-2 font-display">Failed Freebies</h4>
-                <p className="text-sm text-slate-400 leading-relaxed">
-                    Free lead magnets attract "freebie seekers," not serious buyers.
-                </p>
-            </div>
         </div>
 
       </div>

@@ -11,7 +11,7 @@ import Qualifiers from './components/Qualifiers';
 import FAQ from './components/FAQ';
 import ContentTreadmill from './components/ContentTreadmill';
 import TrustGap from './components/TrustGap';
-import LowTicketSystem from './components/LowTicketSystem';
+import FailedSystems from './components/FailedSystems';
 import MathBreakdown from './components/MathBreakdown';
 import ImplementationProcess from './components/ImplementationProcess';
 
@@ -22,10 +22,9 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <ContentTreadmill />
+        <FailedSystems />
         <TrustGap />
-        <LowTicketSystem />
         <MathBreakdown />
-        <Problem />
         <Features />
         <ImplementationProcess />
         <Qualifiers />
