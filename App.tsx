@@ -24,10 +24,9 @@ const App: React.FC = () => {
         <ContentTreadmill />
         <FailedSystems />
         <TrustGap />
-        <MathBreakdown />
         <Features />
+        <MathBreakdown />
         <ImplementationProcess />
-        <Qualifiers />
         <Results />
         
         <Booking />
