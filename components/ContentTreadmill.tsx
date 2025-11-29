@@ -13,13 +13,13 @@ const ContentTreadmill: React.FC = () => {
                   
                 <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-10 leading-tight">
                     Are You Stuck On The
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Content Treadmill?</span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> Content Treadmill?</span>
                 </h2>
 
                 <div className="w-full text-left space-y-8 text-lg md:text-xl text-slate-300 leading-relaxed font-light">
                     
                     <p>
-                        If you are generating <span className="text-white font-semibold">$50k-$150k/month organically</span> but feel "trapped" on the content treadmill—and every attempt to scale with paid ads has resulted in burning cash—<span className="text-white font-semibold border-b border-red-500/50">this is the most important letter you will read today.</span>
+                        If you are generating <span className="text-white font-semibold">$50k+/month organically</span> but feel "trapped" on the content treadmill—and every attempt to scale with paid ads has resulted in burning cash—<span className="text-white font-semibold border-b border-red-500/50">this is the most important letter you will read today.</span>
                     </p>
 
                     <p>

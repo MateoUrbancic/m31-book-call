@@ -9,7 +9,7 @@ const FailedSystems: React.FC = () => {
             <div className="max-w-3xl w-full text-center mb-16">
                 <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-10 leading-tight">
                     Systems You Might've
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Tried Before...</span>
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> Tried Before...</span>
                 </h2>
                 
                 <div className="space-y-6 text-left md:text-xl text-slate-400 leading-relaxed font-light text-left md:text-left">
