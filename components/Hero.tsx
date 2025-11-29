@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Volume2, TrendingUp, Rocket, BarChart3 } from 'lucide-react';
+import { TrendingUp, Rocket, BarChart3 } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -16,11 +16,11 @@ const Hero: React.FC = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
           </span>
-          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">For Established Coaches, Communities & Course Sellers</span>
+          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">Accepting 3 New Partners for October</span>
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
-          We'll Add $50k Of New Cutomers & Clients To Your Info-Business Each Month Via a Low-Ticket Product System<br />
+          Scale Your Agency To <br />
           <span className="bg-gradient-to-r from-brand-300 via-brand-500 to-accent-500 bg-clip-text text-transparent">
             $100k/Month
           </span>
@@ -35,31 +35,13 @@ const Hero: React.FC = () => {
         <div className="relative w-full max-w-4xl group perspective-1000 mb-20">
           <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 to-accent-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative aspect-video bg-slate-950 rounded-2xl border border-white/10 shadow-2xl shadow-black/50 overflow-hidden">
-            
-            {/* Fake UI Header */}
-            <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-black/50 to-transparent z-10 flex items-center justify-between px-6 pointer-events-none">
-                <div className="flex gap-2">
-                    <div className="w-3 h-3 rounded-full bg-red-500/80"></div>
-                    <div className="w-3 h-3 rounded-full bg-yellow-500/80"></div>
-                    <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
-                </div>
-                <div className="text-[10px] font-mono text-white/30 tracking-widest uppercase">Marketing 31 Protocol</div>
-            </div>
-
-            {/* Placeholder for Video */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-900 group-hover:bg-slate-800/80 transition-colors cursor-pointer bg-[url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop')] bg-cover bg-center">
-               <div className="absolute inset-0 bg-slate-950/60 backdrop-blur-[2px]"></div>
-               
-               <div className="relative z-10 w-24 h-24 bg-white/5 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 group-hover:scale-110 group-hover:bg-brand-600 transition-all duration-300 shadow-xl shadow-black/20">
-                  <Play className="w-8 h-8 text-white ml-1 fill-white" />
-               </div>
-               <p className="relative z-10 mt-8 text-sm font-semibold text-white uppercase tracking-[0.2em] animate-pulse">Watch The Breakdown</p>
-            </div>
-            
-            <div className="absolute bottom-6 right-6 flex items-center gap-2 text-xs font-bold text-white bg-black/60 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
-                <Volume2 className="w-3 h-3" />
-                <span>TAP TO UNMUTE</span>
-            </div>
+            <iframe 
+                src="https://player.vimeo.com/video/1141632169?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;title=0&amp;byline=0&amp;portrait=0" 
+                className="absolute inset-0 w-full h-full" 
+                frameBorder="0" 
+                allow="autoplay; fullscreen; picture-in-picture" 
+                title="Marketing 31 Protocol"
+            ></iframe>
           </div>
         </div>
 
@@ -70,7 +52,7 @@ const Hero: React.FC = () => {
              <span className="absolute -top-1 -right-1 w-3 h-3 bg-brand-500 rounded-full animate-ping"></span>
            </button>
            
-           {/* Testimonials / Trusted By Section */}
+           {/* Social Proof Strip */}
            <div className="mt-16 w-full max-w-6xl">
               <p className="text-xs text-slate-500 font-bold uppercase tracking-[0.2em] mb-8 text-center">Trusted by Industry Leaders</p>
               
