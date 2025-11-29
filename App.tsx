@@ -6,6 +6,14 @@ import Results from './components/Results';
 import Booking from './components/Booking';
 import Footer from './components/Footer';
 import AiChat from './components/AiChat';
+import Problem from './components/Problem';
+import Qualifiers from './components/Qualifiers';
+import FAQ from './components/FAQ';
+import ContentTreadmill from './components/ContentTreadmill';
+import TrustGap from './components/TrustGap';
+import LowTicketSystem from './components/LowTicketSystem';
+import MathBreakdown from './components/MathBreakdown';
+import ImplementationProcess from './components/ImplementationProcess';
 
 const App: React.FC = () => {
   return (
@@ -13,9 +21,18 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <ContentTreadmill />
+        <TrustGap />
+        <LowTicketSystem />
+        <MathBreakdown />
+        <Problem />
         <Features />
+        <ImplementationProcess />
+        <Qualifiers />
         <Results />
+        
         <Booking />
+        <FAQ />
       </main>
       <Footer />
       <AiChat />

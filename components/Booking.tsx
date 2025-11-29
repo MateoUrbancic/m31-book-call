@@ -77,7 +77,7 @@ const Booking: React.FC = () => {
                  {/* Calendar Grid Simulation */}
                  <div className="bg-white p-4 rounded-xl border shadow-sm mb-6">
                     <div className="flex justify-between items-center mb-4">
-                       <span className="font-bold text-slate-800">October 2024</span>
+                       <span className="font-bold text-slate-800">Available Slots</span>
                        <div className="flex gap-2">
                           <button className="p-1 hover:bg-slate-100 rounded">&lt;</button>
                           <button className="p-1 hover:bg-slate-100 rounded">&gt;</button>

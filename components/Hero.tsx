@@ -16,11 +16,11 @@ const Hero: React.FC = () => {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
           </span>
-          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">Accepting 3 New Partners for October</span>
+          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">Accepting 3 New Partners This Month</span>
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
-          Headline Test <br />
+          Scale Your Agency To <br />
           <span className="bg-gradient-to-r from-brand-300 via-brand-500 to-accent-500 bg-clip-text text-transparent">
             $100k/Month
           </span>
