@@ -12,12 +12,9 @@ const FailedSystems: React.FC = () => {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Tried Before...</span>
                 </h2>
                 
-                <p className="text-slate-300 text-left md:text-xl leading-relaxed">
+                <p className="text-slate-300 text-lg md:text-xl leading-relaxed">
                     You've likely tried to bridge the trust gap with brute force, relying on methods that demand high trust before you've earned it. Does this look familiar?
                 </p>
-            </div>
-
-            <div>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 text-left w-full max-w-6xl">
