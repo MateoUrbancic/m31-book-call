@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         </div>
 
         <h3 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
-          We'll Generate $50k Of New Customers & Clients For Your Info-Business Each Month With Paid Ads
+          We'll Get You $50k Of New Customers & Clients Each Month With a Low-Ticket System & Meta Ads
         </h3>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed font-light">

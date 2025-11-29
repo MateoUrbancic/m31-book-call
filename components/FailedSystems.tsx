@@ -12,9 +12,34 @@ const FailedSystems: React.FC = () => {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Tried Before...</span>
                 </h2>
                 
-                <p className="text-slate-300 text-lg md:text-xl leading-relaxed">
-                    You've likely tried to bridge the trust gap with brute force, relying on methods that demand high trust before you've earned it. Does this look familiar?
-                </p>
+                <div className="space-y-6 text-left md:text-xl text-slate-400 leading-relaxed font-light text-left md:text-left">
+                    <p>
+                        Maybe you spent <span className="text-white font-semibold">$5,000 to $10,000</span> on Facebook ads, only to get zero ROI.
+                    </p>
+                    <p>
+                        Maybe you built a <span className="text-white font-semibold">Webinar Funnel</span>, only to realize that 70% of people don't show up, and most of the ones that do don't even watch until the end.
+                    </p>
+                    <p>
+                        Maybe you tried the <span className="text-white font-semibold">"Book a Call" Funnel</span>, and your sales team got buried in an avalanche of unqualified "tire-kickers" who couldn't afford your services.
+                    </p>
+                    <p>
+                        You ended up turning the ads off, retreating back to organic content, and blaming the algorithm.
+                    </p>
+                    
+                    <div className="py-4">
+                        <p className="font-bold text-white text-2xl md:text-3xl">But here is the truth:</p>
+                    </div>
+
+                    <p>
+                        The problem isn't your offer. The problem isn't your niche. And the problem isn't that "ads don't work anymore."
+                    </p>
+                    <p>
+                         The problem is that you are using a <span className="text-red-400 font-bold">"Warm Traffic Funnel"</span> on <span className="text-blue-400 font-bold">"Cold Traffic People."</span>
+                    </p>
+                    <p>
+                        And until you fix the structural flaw in your acquisition model, you will continue to burn money.
+                    </p>
+                </div>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 text-left w-full max-w-6xl">

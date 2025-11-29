@@ -16,34 +16,27 @@ const ContentTreadmill: React.FC = () => {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Content Treadmill?</span>
                 </h2>
 
-                <div className="space-y-10 w-full text-left">
-                    <div className="space-y-4">
-                        <p className="text-xl text-slate-400">
-                            20+ hours a week creating videos, writing posts, showing up in Stories.
-                        </p>
-                        <p className="text-xl text-white font-bold">
-                            If you stop running, the whole machine stops.
+                <div className="w-full text-left space-y-8 text-lg md:text-xl text-slate-300 leading-relaxed font-light">
+                    
+                    <p>
+                        If you are generating <span className="text-white font-semibold">$50k-$150k/month organically</span> but feel "trapped" on the content treadmill—and every attempt to scale with paid ads has resulted in burning cash—<span className="text-white font-semibold border-b border-red-500/50">this is the most important letter you will read today.</span>
+                    </p>
+
+                    <p>
+                        You have a proven offer. You have changed lives. You have hit a revenue ceiling that relies 100% on your personal energy.
+                    </p>
+
+                    <p>
+                        You know the solution is Paid Ads. You know you need a system that brings in clients while you sleep.
+                    </p>
+
+                    <div className="relative w-full pt-4">
+                         <div className="absolute inset-0 bg-red-500/10 blur-2xl -z-10"></div>
+                         <p className="text-white font-bold text-xl md:text-2xl">
+                            But if you are like most established experts, your experience with paid traffic has been a nightmare.
                         </p>
                     </div>
 
-                    <div className="space-y-10 w-full text-left">
-                        
-                        <p className="text-lg md:text-xl text-slate-300 italic leading-relaxed">
-                            And you're thinking: <span className="text-white">"I should be able to run ads and scale this thing without relying on my time and energy. But every time I've tried, it either completely fails, or the numbers just don't make sense."</span>
-                        </p>
-
-                        <div className="relative w-full">
-                             <div className="absolute inset-0 bg-red-500/20 blur-xl"></div>
-                             <p className="relative text-lg md:text-xl font-bold text-white leading-relaxed bg-slate-950/50 px-8 py-8 rounded-2xl border border-red-500/30 shadow-2xl">
-                                Maybe you've tested ads before and burned $3,000, $5,000, maybe even $10,000 with minimal results.
-                            </p>
-                        </div>
-
-                        <p className="text-lg text-slate-400 leading-relaxed font-medium">
-                            You know your offer is solid... You know there's demand... You just don't have a system that converts cold strangers into customers profitably.
-                        </p>
-
-                    </div>
                 </div>
             </div>
         </div>
