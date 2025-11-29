@@ -34,7 +34,7 @@ const FailedSystems: React.FC = () => {
                         The problem isn't your offer. The problem isn't your niche. And the problem isn't that "ads don't work anymore."
                     </p>
                     <p>
-                         The problem is that you are using a <span className="text-red-400 font-bold">"Warm Traffic Funnel"</span> on <span className="text-blue-400 font-bold">"Cold Traffic People."</span>
+                         The problem is the increasingly sceptical market and using <span className="text-red-400 font-bold">the wrong system to convert it.
                     </p>
                     <p>
                         And until you fix the structural flaw in your acquisition model, you will continue to burn money.
