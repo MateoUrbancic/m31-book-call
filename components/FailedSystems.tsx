@@ -12,7 +12,7 @@ const FailedSystems: React.FC = () => {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> Tried Before...</span>
                 </h2>
                 
-                <div className="space-y-6 text-left md:text-xl text-slate-400 leading-relaxed font-light text-left md:text-left">
+                <div className="w-full text-left space-y-8 text-lg md:text-xl text-slate-300 leading-relaxed font-light">
                     <p>
                         Maybe you spent <span className="text-white font-semibold">$5,000 to $10,000</span> on Facebook ads, only to get zero ROI.
                     </p>
@@ -34,10 +34,10 @@ const FailedSystems: React.FC = () => {
                         The problem isn't your offer. The problem isn't your niche. And the problem isn't that "ads don't work anymore."
                     </p>
                     <p>
-                         The problem is the increasingly sceptical market and using <span className="text-red-400 font-bold">the wrong system to convert it.
+                         The problem is <span className="text-red-400 font-bold">using the wrong system to convert it </span>in this increasingly sceptical market of 2026.
                     </p>
                     <p>
-                        And until you fix the structural flaw in your acquisition model, you will continue to burn money.
+                        This is the reason WHY you might be experiencing:
                     </p>
                 </div>
             </div>
@@ -61,7 +61,7 @@ const FailedSystems: React.FC = () => {
                     </div>
                     <h4 className="text-xl font-bold text-white mb-3 font-display">Costly Sales Calls</h4>
                     <p className="text-slate-400 leading-relaxed">
-                        $200+ per booking, and half of them don't even pick up the phone.
+                        $200+ per qualified booked call, and half of them don't even show up.
                     </p>
                 </div>
 
@@ -72,7 +72,7 @@ const FailedSystems: React.FC = () => {
                     </div>
                     <h4 className="text-xl font-bold text-white mb-3 font-display">Failed Freebies</h4>
                     <p className="text-slate-400 leading-relaxed">
-                        Free lead magnets attract "freebie seekers," not serious buyers.
+                        Free lead magnets attract "freebie seekers," not people who spend money.
                     </p>
                 </div>
             </div>
