@@ -19,9 +19,9 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">FOR ESTABLISHED COACHES, COMMUNITIES AND COURSE SELLERS</span>
         </div>
 
-        <h3 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white max-w-5xl mx-auto">
+        <h2 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white max-w-6xl mx-auto">
             We'll Get You $50k Of New Customers & Clients Each Month With a Low-Ticket System & Meta Ads
-        </h3>
+        </h2>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed font-light">
           We build automated client acquisition infrastructures for B2B agencies. 
