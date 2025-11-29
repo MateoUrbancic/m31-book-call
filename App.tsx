@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
-        <Problem />
+
         <ContentTreadmill />
         <FailedSystems />
         <TrustGap />
