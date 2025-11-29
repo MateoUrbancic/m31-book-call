@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
-          Scale Your Agency To <br />
+          Headline Test <br />
           <span className="bg-gradient-to-r from-brand-300 via-brand-500 to-accent-500 bg-clip-text text-transparent">
             $100k/Month
           </span>
