@@ -8,8 +8,7 @@ const FailedSystems: React.FC = () => {
             
             <div className="max-w-3xl w-full text-center mb-16">
                 <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-10 leading-tight">
-                    Systems You Might've
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> Tried Before...</span>
+                    Systems You Might've <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Tried Before...</span>
                 </h2>
                 
                 <div className="w-full text-left space-y-8 text-lg md:text-xl text-slate-300 leading-relaxed font-light">
@@ -17,7 +16,7 @@ const FailedSystems: React.FC = () => {
                         Maybe you spent <span className="text-white font-semibold">$5,000 to $10,000</span> on Facebook ads, only to get zero ROI.
                     </p>
                     <p>
-                        Maybe you built a <span className="text-white font-semibold">Webinar Funnel</span>, only to realize that 70% of people don't show up, and most of the ones that do don't even watch until the end.
+                        Maybe you built a <span className="text-white font-semibold">Webinar Funnel</span>, only to realize that 70% of people don't show up, and the ones who do never buy.
                     </p>
                     <p>
                         Maybe you tried the <span className="text-white font-semibold">"Book a Call" Funnel</span>, and your sales team got buried in an avalanche of unqualified "tire-kickers" who couldn't afford your services.
@@ -37,7 +36,7 @@ const FailedSystems: React.FC = () => {
                          The problem is <span className="text-red-400 font-bold">using the wrong system to convert</span> this increasingly sceptical market of 2026.
                     </p>
                     <p>
-                        This is the reason WHY you might be experiencing:
+                        This is WHY you might be experiencing:
                     </p>
                 </div>
             </div>
@@ -61,7 +60,7 @@ const FailedSystems: React.FC = () => {
                     </div>
                     <h4 className="text-xl font-bold text-white mb-3 font-display">Costly Sales Calls</h4>
                     <p className="text-slate-400 leading-relaxed">
-                        $200+ per qualified booked call, and half of them don't even show up.
+                        $200+ per booking, and half of them don't even pick up the phone.
                     </p>
                 </div>
 
@@ -72,7 +71,7 @@ const FailedSystems: React.FC = () => {
                     </div>
                     <h4 className="text-xl font-bold text-white mb-3 font-display">Failed Freebies</h4>
                     <p className="text-slate-400 leading-relaxed">
-                        Free lead magnets attract "freebie seekers," not people who spend money.
+                        Free lead magnets attract "freebie seekers," not serious buyers.
                     </p>
                 </div>
             </div>

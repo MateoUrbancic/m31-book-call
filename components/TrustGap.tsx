@@ -10,12 +10,13 @@ const TrustGap: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
         
         {/* Text Content - Left Aligned & Width Constrained */}
-        <div className="max-w-3xl w-full mb-16 text-left">
-          <h1 className="text-3xl md:text-5xl font-display font-bold text-white mb-8">
-            The "Stranger-to-Sale" Gap
-          </h1>
+        <div className="max-w-3xl w-full mb-16">
+          <h2 className="text-4xl md:text-6xl font-display font-bold text-white text-center mb-10 leading-tight">
+                    Why You Struggle To 
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> Convert Cold Traffic</span>
+          </h2>
           
-          <div className="space-y-6 text-lg md:text-xl text-slate-300 font-light leading-relaxed">
+          <div className="space-y-6 text-lg md:text-xl text-slate-300 text-left font-light leading-relaxed">
              <p className="font-medium text-white text-xl">
                Here is the invisible chasm killing your ad campaigns:
              </p>
