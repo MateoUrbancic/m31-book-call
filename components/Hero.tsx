@@ -20,7 +20,8 @@ const Hero: React.FC = () => {
         </div>
 
         <h2 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white max-w-9xl mx-auto">
-            We'll Get You $50k Of New Customers & Clients Each Month With a Low-Ticket System & Meta Ads
+            We'll Get You 
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> $50k Of New Customers & Clients Each Month</span> With a Low-Ticket System & Meta Ads
         </h2>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed font-light">
