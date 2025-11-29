@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">FOR ESTABLISHED COACHES, COMMUNITIES AND COURSE SELLERS</span>
         </div>
 
-        <h2 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white max-w-7xl mx-auto">
+        <h2 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white max-w-6xl mx-auto">
             We'll Get You 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> $50k Of New Customers & Clients Each Month</span> With a Low-Ticket System & Meta Ads
         </h2>
