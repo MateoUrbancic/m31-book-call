@@ -21,6 +21,7 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <Problem />
         <ContentTreadmill />
         <FailedSystems />
         <TrustGap />
@@ -28,7 +29,7 @@ const App: React.FC = () => {
         <MathBreakdown />
         <ImplementationProcess />
         <Results />
-        
+        <Qualifiers />
         <Booking />
         <FAQ />
       </main>

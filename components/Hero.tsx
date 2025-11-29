@@ -19,12 +19,9 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">Accepting 3 New Partners for October</span>
         </div>
 
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
-          Scale Your Agency To <br />
-          <span className="bg-gradient-to-r from-brand-300 via-brand-500 to-accent-500 bg-clip-text text-transparent">
-            $100k/Month
-          </span>
-        </h1>
+        <h3 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-[0.9] mb-8 tracking-tighter text-white">
+          We'll Generate $50k Of New Customers & Clients For Your Info-Business Each Month With Paid Ads
+        </h3>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed font-light">
           We build automated client acquisition infrastructures for B2B agencies. 
