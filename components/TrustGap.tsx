@@ -7,22 +7,54 @@ const TrustGap: React.FC = () => {
       {/* Subtle Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[300px] bg-slate-900/50 rounded-[100%] blur-[100px] -z-10" />
 
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
         
-        {/* Header */}
-        <div className="flex flex-col items-center text-center mb-16">
-          <div className="max-w-3xl">
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-4">
-              The Invisible Trust Gap
-            </h2>
-            <p className="text-slate-400 text-lg md:text-xl font-light">
-              Why standard high-ticket funnels fail miserably with cold traffic.
-            </p>
+        {/* Text Content - Left Aligned & Width Constrained */}
+        <div className="max-w-3xl w-full mb-16 text-left">
+          <h1 className="text-3xl md:text-5xl font-display font-bold text-white mb-8">
+            The "Stranger-to-Sale" Gap
+          </h1>
+          
+          <div className="space-y-6 text-lg md:text-xl text-slate-300 font-light leading-relaxed">
+             <p className="font-medium text-white text-xl">
+               Here is the invisible chasm killing your ad campaigns:
+             </p>
+             
+             <p>
+               When you sell to your organic audience (YouTube/Instagram), you are selling to people who have consumed 20+ hours of your content. They trust you. The "Trust Gap" is already closed.
+             </p>
+
+             <p>
+               <span className="text-white font-bold">Cold traffic is different.</span>
+             </p>
+
+             <p>
+               Cold traffic has seen you for 3 seconds. They don't know you. They don't trust you.
+             </p>
+             
+             <p>
+               When you ask a cold stranger to watch a 90-minute webinar or book a 45-minute call, you are asking for a massive commitment before you have earned it.
+             </p>
+
+             <div className="pt-6 space-y-4">
+                <div className="flex gap-3">
+                   <XCircle className="w-6 h-6 text-red-500 shrink-0 mt-1" />
+                   <p><span className="text-white font-bold">Free Lead Magnets</span> attract "freebie seekers," not buyers.</p>
+                </div>
+                <div className="flex gap-3">
+                   <XCircle className="w-6 h-6 text-red-500 shrink-0 mt-1" />
+                   <p><span className="text-white font-bold">Webinars</span> have become "leaky buckets" with abysmal attendance rates.</p>
+                </div>
+                <div className="flex gap-3">
+                   <XCircle className="w-6 h-6 text-red-500 shrink-0 mt-1" />
+                   <p><span className="text-white font-bold">Direct-to-High-Ticket pitches</span> trigger immediate skepticism.</p>
+                </div>
+             </div>
           </div>
         </div>
 
         {/* The Gap Visualization */}
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-12 items-stretch max-w-5xl mx-auto relative">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-12 items-stretch max-w-5xl mx-auto relative w-full">
           
           {/* Connector Visual (Desktop only) */}
           <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 flex-col items-center justify-center">

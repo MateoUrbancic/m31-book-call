@@ -34,7 +34,7 @@ const FailedSystems: React.FC = () => {
                         The problem isn't your offer. The problem isn't your niche. And the problem isn't that "ads don't work anymore."
                     </p>
                     <p>
-                         The problem is <span className="text-red-400 font-bold">using the wrong system to convert it </span>in this increasingly sceptical market of 2026.
+                         The problem is <span className="text-red-400 font-bold">using the wrong system to convert</span> this increasingly sceptical market of 2026.
                     </p>
                     <p>
                         This is the reason WHY you might be experiencing:
