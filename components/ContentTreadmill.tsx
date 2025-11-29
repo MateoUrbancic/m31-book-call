@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContentTreadmill: React.FC = () => {
   return (
-    <section className="py-24 bg-slate-950 relative border-b border-white/5">
+    <section className="py-24 bg-slate-950 relative border-b border-white/5 overflow-hidden">
         {/* Background gradient for depth */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-red-500/5 rounded-full blur-[100px] -z-10" />
         
