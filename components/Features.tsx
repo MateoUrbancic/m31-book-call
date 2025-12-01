@@ -36,7 +36,7 @@ const Features: React.FC = () => {
                         <div className="w-[260px] bg-slate-950/50 border border-blue-500/10 rounded-2xl p-6 flex flex-col items-center gap-6 h-full">
                             <div className="flex flex-col items-center gap-2 w-full">
                                 <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">Traffic Source</span>
-                                <div className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 text-xs font-bold">ADS / SOCIAL</div>
+                                <div className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 text-xs font-bold">META ADS</div>
                             </div>
                             <ArrowDown className="text-slate-700 w-5 h-5" />
                             <div className="w-full aspect-square bg-gradient-to-br from-amber-400 to-orange-600 rounded-xl shadow-2xl shadow-orange-500/10 flex flex-col items-center justify-center text-center p-6 group cursor-default hover:scale-[1.02] transition-transform">
