@@ -7,8 +7,8 @@ const Features: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-20 text-center">
            <span className="text-brand-500 font-mono text-sm tracking-wider uppercase mb-4 block">The Mechanism</span>
-           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Complete Acquisition Infrastructure</h2>
-           <p className="text-slate-400 max-w-2xl mx-auto text-center">We don't just run ads. We install a complete, end-to-end client acquisition system into your business.</p>
+           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">The Low-Ticket System</h2>
+           <p className="text-slate-400 max-w-2xl mx-auto text-center">We don't just run ads to a low-ticket product. We install a complete, end-to-end client acquisition system into your business.</p>
         </div>
 
         {/* NEW GRAPH: Detailed Flowchart - WIDER CONTAINER */}
