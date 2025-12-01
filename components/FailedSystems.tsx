@@ -13,7 +13,7 @@ const FailedSystems: React.FC = () => {
                 
                 <div className="w-full text-left space-y-8 text-lg md:text-xl text-slate-300 leading-relaxed font-light">
                     <p>
-                        To escape the treadmill, you’ve probably tried to scale with paid traffic before. And if you are like most of our clients, <span className="text-white font-semibold">it wasn't great.
+                        To escape the treadmill, you’ve probably tried to scale with paid traffic before. And if you are like most of our clients, <span className="text-white font-semibold">it wasn't great.</span>
                     </p>
 
                     <p>

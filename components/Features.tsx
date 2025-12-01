@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Target, MousePointer2, PlayCircle, Zap, CreditCard, TrendingUp, DollarSign, Phone, MessageSquare, Video, ArrowDown, Database, Mail, BarChart3 } from 'lucide-react';
+import { ArrowRight, Target, MousePointer2, Zap, CreditCard, TrendingUp, Phone, MessageSquare, Video, ArrowDown, Database, Mail, BarChart3 } from 'lucide-react';
 
 const Features: React.FC = () => {
   return (
