@@ -19,17 +19,17 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">FOR ESTABLISHED COACHES, COMMUNITIES AND COURSE SELLERS</span>
         </div>
 
-        <h2 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[1.1] mb-8 tracking-tighter text-white max-w-7xl mx-auto">
-            We'll Generate
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> $50,000 Of New Customers & Clients For You Each Month</span> With a Low-Ticket System & Meta Ads
+        <h2 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[1.1] mb-4 tracking-tighter text-white max-w-7xl mx-auto">
+            We'll Get You
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> $50,000 Of New Customers & Clients Each Month</span> With a Low-Ticket System & Meta Ads
         </h2>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
-          We'll build and manage the entire system (funnel and ads) so you can acquire new customers and clients without needing your direct time or energy inputs. Stop relying on organic traffic. <strong style={{ color: '#cccccc' }}>Guaranteed to hit performance targets in 90 days or a full refund.</strong>
+          We'll build and manage the entire system (funnel and ads) so you can acquire new customers and clients without your direct time or energy inputs. Stop relying on organic traffic. <strong style={{ color: '#cccccc' }}>Guaranteed to hit performance targets in 90 days or a full refund.</strong>
         </p>
 
         {/* VSL Container */}
-        <div className="relative w-full max-w-4xl group perspective-1000 mb-20">
+        <div className="relative w-full max-w-4xl group perspective-1000 mb-10">
           <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 to-accent-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative aspect-video bg-slate-950 rounded-2xl border border-white/10 shadow-2xl shadow-black/50 overflow-hidden">
             <iframe 
