@@ -18,10 +18,10 @@ const LowTicketSystem: React.FC = () => {
           
           <div className="space-y-4 text-lg md:text-xl text-slate-400 font-light">
             <p>
-              Instead of asking cold traffic to leap from stranger <ArrowRight className="inline w-4 h-4 mx-1" /> $2,000 buyer in one jump, you ask them to take a small step:
+              Instead of asking cold traffic to leap from stranger <ArrowRight className="inline w-4 h-4 mx-1" /> to a high-ticket sale in one jump, you ask them to take a small step:
             </p>
             <p className="font-bold text-brand-200">
-              Buy a $6-$26 product that solves ONE immediate, pressing problem.
+              Buy a low-ticket product ($5-$25) that solves ONE immediate, pressing problem they're having.
             </p>
           </div>
         </div>

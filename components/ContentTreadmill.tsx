@@ -58,7 +58,7 @@ const ContentTreadmill: React.FC = () => {
                     </p>
 
                     <p className="text-white font-bold text-xl">
-                        In the next 60 seconds I'll show you exactly how you can start getting new customer and clients from paid ads with almost 0 direct time and energy input from yourself.
+                        In the next 60 seconds I'll show you how you can start getting new customer and clients from paid ads with almost 0 direct time and energy input from yourself.
                     </p>
 
                 </div>

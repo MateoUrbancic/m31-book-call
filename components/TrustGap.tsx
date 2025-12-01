@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, DollarSign, XCircle } from 'lucide-react';
+import { User, DollarSign, XCircle, ArrowDown } from 'lucide-react';
 
 const TrustGap: React.FC = () => {
   return (
@@ -10,117 +10,87 @@ const TrustGap: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
         
         {/* Text Content - Left Aligned & Width Constrained */}
-        <div className="max-w-3xl w-full mb-16">
-          <h2 className="text-4xl md:text-6xl font-display font-bold text-white text-center mb-10 leading-tight">
-                    Why You Struggle To 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400"> Convert Cold Traffic</span>
+        <div className="max-w-3xl w-full mb-12">
+          <h2 className="text-4xl md:text-6xl font-display font-bold text-white text-center mb-8 leading-tight">
+             The <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Trust</span> Gap
           </h2>
           
           <div className="space-y-6 text-lg md:text-xl text-slate-300 text-left font-light leading-relaxed">
-             <p className="font-medium text-white text-xl">
-               Here is the invisible chasm killing your ad campaigns:
+             <p className="font-medium text-white text-xl text-center mb-10">
+               There is an invisible trust gap destroying your ad performance.
              </p>
              
              <p>
-               When you sell to your organic audience (YouTube/Instagram), you are selling to people who have consumed 20+ hours of your content. They trust you. The "Trust Gap" is already closed.
+               To understand it, you have to look at why your organic marketing works so well.
              </p>
 
              <p>
-               <span className="text-white font-bold">Cold traffic is different.</span>
-             </p>
-
-             <p>
-               Cold traffic has seen you for 3 seconds. They don't know you. They don't trust you.
+               When someone buys your high-ticket offer from your YouTube channel or Instagram, they have likely consumed hours of your content. They know your story, they’ve seen your results, and they trust you.
              </p>
              
              <p>
-               When you ask a cold stranger to watch a 90-minute webinar or book a 45-minute call, you are asking for a massive commitment before you have earned it.
+               <span className="text-white font-bold border-b border-blue-500/50">The trust gap has already been closed by time.</span>
              </p>
 
-             <div className="pt-6 space-y-4">
-                <div className="flex gap-3">
+             <p className="mt-6">
+               But when you run paid ads, you are talking to <span className="text-blue-400 font-bold">Cold Traffic.</span>
+             </p>
+
+             <p>
+               These are strangers who have known you for exactly 3 seconds. They don’t know if you are an expert or a scammer. They don’t know if your results are real.
+             </p>
+             
+             <p className="mt-6 font-bold text-white">
+               And this is where the traditional funnels fail:
+             </p>
+
+             <div className="space-y-4 my-6 pl-2">
+                <div className="flex gap-4">
                    <XCircle className="w-6 h-6 text-red-500 shrink-0 mt-1" />
-                   <p><span className="text-white font-bold">Free Lead Magnets</span> attract "freebie seekers," not buyers.</p>
+                   <p>Asking them to watch a <span className="text-white font-bold">90-minute webinar</span> is asking for a massive time commitment from a stranger who doesn't trust you yet.</p>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-4">
                    <XCircle className="w-6 h-6 text-red-500 shrink-0 mt-1" />
-                   <p><span className="text-white font-bold">Webinars</span> have become "leaky buckets" with abysmal attendance rates.</p>
+                   <p>Asking them to <span className="text-white font-bold">book a call</span> is asking them to get sold to by a stranger.</p>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-4">
                    <XCircle className="w-6 h-6 text-red-500 shrink-0 mt-1" />
-                   <p><span className="text-white font-bold">Direct-to-High-Ticket pitches</span> trigger immediate skepticism.</p>
+                   <p>Asking them to download a <span className="text-white font-bold">free PDF</span> signals that your advice is cheap, attracting people who have no intention of paying.</p>
                 </div>
              </div>
-          </div>
-        </div>
+             
+             <div className="my-16 border-t border-b border-white/5 py-10">
 
-        {/* The Gap Visualization */}
-        <div className="grid md:grid-cols-2 gap-6 lg:gap-12 items-stretch max-w-5xl mx-auto relative w-full">
-          
-          {/* Connector Visual (Desktop only) */}
-          <div className="hidden md:flex absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 flex-col items-center justify-center">
-            <div className="w-12 h-12 rounded-full bg-slate-950 border border-slate-800 flex items-center justify-center relative shadow-xl">
-               <div className="absolute w-px h-24 bg-gradient-to-b from-transparent via-red-500/50 to-transparent rotate-90"></div>
-               <XCircle className="w-6 h-6 text-red-500 bg-slate-950 relative z-10" />
-            </div>
-          </div>
 
-          {/* Left Card: The Stranger */}
-          <div className="bg-gradient-to-br from-slate-900 to-slate-950 rounded-3xl p-8 border border-blue-500/20 shadow-2xl relative z-10 flex flex-col h-full group">
-            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-transparent opacity-50"></div>
-            
-            <div className="flex items-center gap-4 mb-8">
-                <div className="w-14 h-14 bg-blue-500/10 rounded-2xl flex items-center justify-center text-blue-400 border border-blue-500/20">
-                    <User className="w-7 h-7" />
-                </div>
-                <h3 className="text-2xl font-bold text-white font-display">The Stranger</h3>
-            </div>
-            
-            <div className="space-y-4 mb-8 flex-1">
-                {['"Who is this person?"', '"Is this a scam?"', '"I don\'t trust you yet."'].map((text, i) => (
-                    <div key={i} className="flex items-center gap-3 text-slate-400 bg-slate-900/50 p-3 rounded-lg border border-white/5">
-                        <span className="w-1.5 h-1.5 rounded-full bg-slate-600"></span>
-                        <span className="italic">{text}</span>
-                    </div>
-                ))}
-            </div>
-
-            <div className="bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
-                <p className="text-sm font-bold text-blue-300">
-                    <span className="opacity-60 font-normal text-slate-300 mr-2 uppercase text-xs tracking-wider">Status:</span> 
-                    Skeptical & Cold.
+                <p className="mb-6">
+                    When you try to use your "warm traffic" strategies on "cold traffic," you are trying to force a stranger to leap across that trust gap instantly.
                 </p>
-                <p className="text-xs text-blue-200/60 mt-1">Needs time & proof before buying.</p>
-            </div>
+
+                <p className="mb-6">
+                    You are essentially asking for marriage (a high-ticket sale) before you've even bought them a drink.
+                </p>
+
+                <p>
+                    That is why your conversion rates plummet from <span className="text-green-400 font-bold">10–30%</span> on warm traffic to <span className="text-red-400 font-bold">0–2%</span> on cold traffic.
+                </p>
+             </div>
+
+             <p className="text-white text-2xl">
+                You don't need "better targeting" or "flashier ads."
+             </p>
+
+             <div className="bg-gradient-to-br from-brand-900/40 to-slate-900 border border-brand-500/30 p-8 rounded-2xl shadow-xl mt-8">
+                <h4 className="text-3xl font-display font-bold text-white mb-4 flex items-center gap-3">
+                    You Need a Better System.
+                </h4>
+                <p className="text-lg text-slate-300 mb-6">
+                    You need a way to turn a skeptical stranger into a trusting customer before you ask them to buy your high-ticket offer.
+                </p>
+                <p className="text-brand-400 font-bold text-xl border-l-4 border-brand-500 pl-4">
+                    And the only way to do that is with a low-ticket offer.
+                </p>
+             </div>
           </div>
-
-          {/* Right Card: The Big Ask */}
-          <div className="bg-gradient-to-bl from-slate-900 to-slate-950 rounded-3xl p-8 border border-red-500/20 shadow-2xl relative z-10 flex flex-col h-full">
-            <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-l from-red-500 to-transparent opacity-50"></div>
-
-            <div className="flex items-center gap-4 mb-8">
-                <div className="w-14 h-14 bg-red-500/10 rounded-2xl flex items-center justify-center text-red-400 border border-red-500/20">
-                    <DollarSign className="w-7 h-7" />
-                </div>
-                <h3 className="text-2xl font-bold text-white font-display">The Big Ask</h3>
-            </div>
-
-            <p className="text-slate-300 leading-relaxed mb-8 text-lg font-light flex-1">
-                Trying to sell a <span className="text-white font-bold bg-white/5 px-1 rounded">$2k - $10k</span> offer immediately. <br/><br/>
-                <span className="italic opacity-80">"This is like asking for marriage on the first date."</span>
-            </p>
-
-            <div className="bg-red-950/30 border border-red-500/30 rounded-xl p-4 flex justify-between items-center group cursor-default">
-                <div>
-                    <p className="text-sm font-bold text-red-400">
-                        <span className="opacity-60 font-normal text-slate-300 mr-2 uppercase text-xs tracking-wider">Result:</span> 
-                        They run away.
-                    </p>
-                </div>
-                <XCircle className="w-5 h-5 text-red-500 group-hover:scale-110 transition-transform" />
-            </div>
-          </div>
-
         </div>
 
       </div>

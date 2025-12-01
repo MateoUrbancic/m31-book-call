@@ -8,32 +8,53 @@ const FailedSystems: React.FC = () => {
             
             <div className="max-w-3xl w-full text-center mb-16">
                 <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-10 leading-tight">
-                    Systems You Might've <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Tried Before...</span>
+                    "I Tried Ads... <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">It Just Didn't Work For Me"</span>
                 </h2>
                 
                 <div className="w-full text-left space-y-8 text-lg md:text-xl text-slate-300 leading-relaxed font-light">
                     <p>
-                        Maybe you spent <span className="text-white font-semibold">$5,000 to $10,000</span> on Facebook ads, only to get zero ROI.
+                        To escape the treadmill, you’ve probably tried to scale with paid traffic before. And if you are like most of our clients, <span className="text-white font-semibold">it wasn't great.
                     </p>
-                    <p>
-                        Maybe you built a <span className="text-white font-semibold">Webinar Funnel</span>, only to realize that 70% of people don't show up, and the ones who do never buy.
-                    </p>
-                    <p>
-                        Maybe you tried the <span className="text-white font-semibold">"Book a Call" Funnel</span>, and your sales team got buried in an avalanche of unqualified "tire-kickers" who couldn't afford your services.
-                    </p>
-                    <p>
-                        You ended up turning the ads off, retreating back to organic content, and blaming the algorithm.
-                    </p>
-                    
-                    <div className="py-4">
-                        <p className="font-bold text-white text-2xl md:text-3xl">But here is the truth:</p>
-                    </div>
 
                     <p>
-                        The problem isn't your offer. The problem isn't your niche. And the problem isn't that "ads don't work anymore."
+                        Maybe you hired an agency or tried to figure it out yourself, only to burn $5,000–$10,000 while barely breaking even.
                     </p>
+
                     <p>
-                         The problem is <span className="text-red-400 font-bold">using the wrong system to convert</span> this increasingly sceptical market of 2026.
+                        You likely ran into one of these three walls:
+                    </p>
+
+                    <ul className="space-y-4 my-8 pl-2">
+                        <li className="flex items-start gap-4">
+                            <div className="mt-2.5 w-2 h-2 rounded-full bg-red-500 shrink-0 shadow-[0_0_10px_rgba(239,68,68,0.6)]"></div>
+                                The "Freebie Seeker" Trap: You ran ads to a free Lead Magnet or PDF. You built an email list of thousands of people, but they just wanted free stuff. They never bought your high-ticket offer.
+                        </li>
+
+                        <li className="flex items-start gap-4">
+                            <div className="mt-2.5 w-2 h-2 rounded-full bg-red-500 shrink-0 shadow-[0_0_10px_rgba(239,68,68,0.6)]"></div>
+                            The "Webinar" Black Hole: You tried the classic webinar funnel. You paid for 500 registrants, but 70% didn't show up. You pitched to an empty room and barely broke even.
+                        </li>
+
+                        <li className="flex items-start gap-4">
+                            <div className="mt-2.5 w-2 h-2 rounded-full bg-red-500 shrink-0 shadow-[0_0_10px_rgba(239,68,68,0.6)]"></div>
+                            The "Book-a-Call" Nightmare: You sent cold traffic straight to an application page, paid $200+ per booked call, but only 50% show up, and those that do can barely afford you...
+                        </li>
+
+                    </ul>
+
+
+                    <p>
+                        You ended up turning the ads off and retreating back to organic content.
+                    </p>
+                    
+                    <p className="font-bold text-white text-2xl md:text-3xl">Here is the good news:</p>
+
+                    <p>
+                        Ads do work. The problem isn't your offer, your niche, or the ad platform.
+                    </p>
+
+                    <p>
+                         The problem is this ever-increasing scepticism of the market.
                     </p>
                     <p>
                         This is WHY you might be experiencing:
@@ -60,7 +81,7 @@ const FailedSystems: React.FC = () => {
                     </div>
                     <h4 className="text-xl font-bold text-white mb-3 font-display">Costly Sales Calls</h4>
                     <p className="text-slate-400 leading-relaxed">
-                        $200+ per booking, and half of them don't even pick up the phone.
+                        $200+ per booking, and half of them don't even show up.
                     </p>
                 </div>
 

@@ -14,7 +14,7 @@ const Features: React.FC = () => {
                     The Low-Ticket System
                 </h2>
                 <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-                    Instead of asking cold traffic to leap to a $2,000 purchase, we bridge the gap with a low-ticket offer that converts at $0 net cost.
+                    Instead of asking cold traffic to leap into a high-ticket purchase, we bridge the trust gap with a low-ticket offer that converts them into customers and gets back our ad spend on Day 1.
                 </p>
             </div>
 
