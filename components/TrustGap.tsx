@@ -10,7 +10,7 @@ const TrustGap: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center">
         
         {/* Text Content - Left Aligned & Width Constrained */}
-        <div className="max-w-3xl w-full mb-12">
+        <div className="max-w-2xl w-full mb-12">
           <h2 className="text-4xl md:text-6xl font-display font-bold text-white text-center mb-8 leading-tight">
              The <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">Trust</span> Gap
           </h2>
