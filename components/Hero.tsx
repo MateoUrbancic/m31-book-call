@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
         {/* CTA Section */}
         <div className="flex flex-col items-center gap-6 w-full">
            <button onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })} className="relative px-8 py-4 bg-white text-slate-950 rounded-full font-bold text-lg hover:bg-slate-200 transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]">
-             Book Your Growth Audit
+             Book a Discovery Call
              <span className="absolute -top-1 -right-1 w-3 h-3 bg-brand-500 rounded-full animate-ping"></span>
            </button>
            

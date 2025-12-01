@@ -19,23 +19,47 @@ const ContentTreadmill: React.FC = () => {
                 <div className="w-full text-left space-y-8 text-lg md:text-xl text-slate-300 leading-relaxed font-light">
                     
                     <p>
-                        If you are generating <span className="text-white font-semibold">$50k+/month organically</span> but feel "trapped" on the content treadmill—and every attempt to scale with paid ads has resulted in burning cash—<span className="text-white font-semibold border-b border-red-500/50">this is the most important letter you will read today.</span>
+                        You’ve already built a successful business. You have a proven offer, happy clients, and you’re likely generating <span className="text-white font-semibold">$50k+/month in revenue.</span> 
                     </p>
 
                     <p>
-                        You have a proven offer. You have changed lives. You have hit a revenue ceiling that relies 100% on your personal energy.
+                        But you have a problem:
                     </p>
 
                     <p>
-                        You know the solution is Paid Ads. You know you need a system that brings in clients while you sleep.
+                        <span className="text-white font-semibold border-b border-red-500/50">Your entire business is 100% dependent on YOU showing up every single day.</span>
                     </p>
 
-                    <div className="relative w-full pt-4">
-                         <div className="absolute inset-0 bg-red-500/10 blur-2xl -z-10"></div>
-                         <p className="text-white font-bold text-xl md:text-2xl">
-                            But if you are like most established experts, your experience with paid traffic has been a nightmare.
-                        </p>
-                    </div>
+                    <p>
+                        You built your revenue on the back of organic content—YouTube videos, Instagram stories, and constant value posts. And now, you are trapped in a cycle where you have to feed the content machine just to maintain your current revenue.
+                    </p>
+
+                    <p className="text-white font-bold text-xl">
+                        Does this sound like you?
+                    </p>
+
+                    <ul className="space-y-4 my-8 pl-2">
+                        <li className="flex items-start gap-4">
+                            <div className="mt-2.5 w-2 h-2 rounded-full bg-red-500 shrink-0 shadow-[0_0_10px_rgba(239,68,68,0.6)]"></div>
+                            <span>You’re working 20+ hours a week just creating content, filming videos, and writing posts.</span>
+                        </li>
+                        <li className="flex items-start gap-4">
+                            <div className="mt-2.5 w-2 h-2 rounded-full bg-red-500 shrink-0 shadow-[0_0_10px_rgba(239,68,68,0.6)]"></div>
+                            <span>You’re terrified to stop because you know if you stop posting for a week, your pipeline dries up and revenue drops to zero.</span>
+                        </li>
+                        <li className="flex items-start gap-4">
+                            <div className="mt-2.5 w-2 h-2 rounded-full bg-red-500 shrink-0 shadow-[0_0_10px_rgba(239,68,68,0.6)]"></div>
+                            <span>You feel like you have a high-paying job, not a business. You feel like you've built a business that only moves when you're on the content treadmill.</span>
+                        </li>
+                    </ul>
+
+                    <p>
+                        If that's you...
+                    </p>
+
+                    <p className="text-white font-bold text-xl">
+                        I'll show you exactly how you can start getting new customer and clients from paid ads with almost 0 direct time and energy input from yourself.
+                    </p>
 
                 </div>
             </div>
