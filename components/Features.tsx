@@ -1,22 +1,14 @@
 import React from 'react';
-import { ArrowRight, Target, MousePointer2, PlayCircle, Zap, CreditCard, TrendingUp, DollarSign, Phone, MessageSquare, Video, ArrowDown } from 'lucide-react';
+import { ArrowRight, Target, MousePointer2, PlayCircle, Zap, CreditCard, TrendingUp, DollarSign, Phone, MessageSquare, Video, ArrowDown, Database, Mail, BarChart3 } from 'lucide-react';
 
 const Features: React.FC = () => {
   return (
-    <section id="process" className="py-24 bg-slate-950 relative border-b border-white/5 overflow-hidden">
-        {/* Background Gradient */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[600px] bg-brand-500/5 rounded-full blur-[120px] -z-10" />
-
-        <div className="container mx-auto px-4 md:px-6">
-            <div className="text-center mb-16 max-w-4xl mx-auto">
-                <span className="text-brand-500 font-mono text-sm tracking-wider uppercase mb-4 block">The Mechanism</span>
-                <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 leading-tight">
-                    The Low-Ticket System
-                </h2>
-                <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-                    Instead of asking cold traffic to leap into a high-ticket purchase, we bridge the trust gap with a low-ticket offer that converts them into customers and gets back our ad spend on Day 1.
-                </p>
-            </div>
+    <section id="process" className="py-32 bg-slate-950 relative">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="mb-20">
+           <span className="text-brand-500 font-mono text-sm tracking-wider uppercase mb-4 block">The Mechanism</span>
+           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Complete Acquisition Infrastructure</h2>
+           <p className="text-slate-400 max-w-2xl text-lg">We don't just run ads. We install a complete, end-to-end client acquisition system into your business.</p>
         </div>
 
         {/* NEW GRAPH: Detailed Flowchart - WIDER CONTAINER */}
@@ -61,7 +53,7 @@ const Features: React.FC = () => {
                             </div>
                         </div>
 
-                        <div className="bg-slate-950/50 border border-orange-500/10 rounded-2xl p-6 h-full flex justify-center items-start gap-8 relative">
+                        <div className="bg-slate-950/50 border border-orange-500/10 rounded-2xl p-6 h-full flex justify-center items-start gap-4 relative">
                                 {/* Checkout Group */}
                                 <div className="flex flex-col items-center gap-3 mt-6">
                                     <div className="w-28 h-24 bg-blue-600 rounded-xl shadow-lg shadow-blue-500/20 flex flex-col items-center justify-center text-center p-2">
@@ -74,7 +66,7 @@ const Features: React.FC = () => {
                                 </div>
 
                                 {/* Arrow */}
-                                <div className="pt-16 text-slate-700"><ArrowRight className="w-4 h-4" /></div>
+                                <div className="pt-16 text-slate-700 shrink-0"><ArrowRight className="w-4 h-4" /></div>
 
                                 {/* Upsell 1 Group */}
                                 <div className="flex flex-col items-center gap-3 mt-6">
@@ -87,7 +79,7 @@ const Features: React.FC = () => {
                                 </div>
 
                                 {/* Arrow */}
-                                <div className="pt-16 text-slate-700"><ArrowRight className="w-4 h-4" /></div>
+                                <div className="pt-16 text-slate-700 shrink-0"><ArrowRight className="w-4 h-4" /></div>
 
                                 {/* Upsell 2 Group */}
                                 <div className="flex flex-col items-center gap-3 mt-6">
@@ -117,7 +109,26 @@ const Features: React.FC = () => {
 
                         <div className="w-[320px] bg-slate-950/50 border border-green-500/10 rounded-2xl p-6 h-full relative">
                             
-                            <div className="flex justify-between items-start gap-4">
+                            {/* SVG for curved arrow */}
+                            <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 overflow-visible">
+                                <defs>
+                                    <marker id="arrowhead-gray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                                        <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+                                    </marker>
+                                </defs>
+                                {/* Curve from WhatsApp (left col bottom) to Sales Call (right col top) */}
+                                <path 
+                                    d="M 140 288 C 180 288, 240 240, 240 138" 
+                                    fill="none" 
+                                    stroke="#64748b" 
+                                    strokeWidth="2" 
+                                    strokeDasharray="4 4"
+                                    markerEnd="url(#arrowhead-gray)"
+                                    className="opacity-50"
+                                />
+                            </svg>
+
+                            <div className="flex justify-between items-start gap-4 relative z-10">
                                 {/* VSL/Book Call */}
                                 <div className="flex flex-col items-center gap-3 mt-6">
                                     <div className="w-28 h-24 bg-blue-600 rounded-xl shadow-lg shadow-blue-500/20 flex flex-col items-center justify-center text-center p-2 z-10 relative">
@@ -131,7 +142,11 @@ const Features: React.FC = () => {
                                     <ArrowDown className="text-slate-700 w-4 h-4" />
                                     
                                     <div className="w-28 py-2 bg-emerald-200 rounded-lg text-emerald-900 text-[10px] font-bold text-center mb-1">Thank You + System</div>
-                                    <div className="w-28 py-2 bg-blue-600 rounded-lg text-white text-[10px] font-bold text-center">Email / SMS Nurture</div>
+                                    
+                                    {/* WhatsApp + Setters */}
+                                    <div className="w-28 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 text-[10px] font-bold text-center shadow-lg">
+                                        <span className="text-green-400">WhatsApp</span> + Setters
+                                    </div>
                                 </div>
 
                                 {/* Arrow to Sales Call */}
@@ -154,130 +169,67 @@ const Features: React.FC = () => {
             </div>
         </div>
 
-        <div className="container mx-auto px-4 md:px-6">
-            <div className="w-full max-w-7xl mx-auto">
-                {/* 3-Phase Flowchart - Centered & Responsive */}
-                <div className="flex flex-col lg:flex-row gap-6 justify-center items-center lg:items-stretch relative z-10">
-                    
-                    {/* Phase 1 */}
-                    <div className="flex-1 min-w-[300px] max-w-md w-full bg-slate-50 rounded-2xl p-8 border border-slate-200 relative shadow-xl hover:shadow-2xl transition-all duration-300">
-                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-purple-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider shadow-lg shadow-purple-500/30">
-                            Phase 01
-                        </div>
-                        <div className="mt-4 text-center">
-                            <div className="w-14 h-14 mx-auto bg-purple-100 rounded-full flex items-center justify-center mb-5">
-                                <Target className="w-7 h-7 text-purple-600" />
-                            </div>
-                            <h4 className="text-2xl font-bold text-slate-900">Acquisition</h4>
-                            <p className="text-sm text-slate-500 mt-2 mb-8">Capture Attention & Sell the Core Offer</p>
-                        </div>
-
-                        <div className="bg-white border border-slate-100 rounded-xl p-5 mb-4 shadow-sm flex items-center gap-4 hover:border-purple-200 transition-colors">
-                            <div className="w-10 h-10 bg-slate-50 rounded-lg flex items-center justify-center shrink-0">
-                               <MousePointer2 className="w-5 h-5 text-slate-400" />
-                            </div>
-                            <div>
-                                <p className="font-bold text-slate-800 text-sm">Static Image Ads</p>
-                                <p className="text-xs text-slate-400">Pattern Interrupts</p>
-                            </div>
-                        </div>
-                        <div className="flex justify-center -my-2 relative z-10"><div className="h-6 w-px bg-slate-200"></div></div>
-                        <div className="bg-white border border-slate-100 rounded-xl p-5 mt-2 shadow-sm flex items-center gap-4 hover:border-purple-200 transition-colors">
-                            <div className="w-10 h-10 bg-slate-50 rounded-lg flex items-center justify-center shrink-0">
-                                <PlayCircle className="w-5 h-5 text-slate-400" />
-                            </div>
-                            <div>
-                                <p className="font-bold text-slate-800 text-sm">Sales Page</p>
-                                <p className="text-xs text-slate-400">$27 - $47 Offer</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Arrow */}
-                    <div className="hidden lg:flex items-center justify-center text-slate-600/50">
-                        <ArrowRight className="w-8 h-8" />
-                    </div>
-
-                    {/* Phase 2 */}
-                    <div className="flex-1 min-w-[300px] max-w-md w-full bg-slate-50 rounded-2xl p-8 border border-slate-200 relative shadow-xl hover:shadow-2xl transition-all duration-300">
-                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider shadow-lg shadow-blue-500/30">
-                            Phase 02
-                        </div>
-                         <div className="mt-4 text-center">
-                            <div className="w-14 h-14 mx-auto bg-blue-100 rounded-full flex items-center justify-center mb-5">
-                                <Zap className="w-7 h-7 text-blue-600" />
-                            </div>
-                            <h4 className="text-2xl font-bold text-slate-900">Liquidation</h4>
-                            <p className="text-sm text-slate-500 mt-2 mb-8">Break Even on Ad Spend Immediately</p>
-                        </div>
-
-                         <div className="bg-white border border-slate-100 rounded-xl p-5 mb-4 shadow-sm hover:border-blue-200 transition-colors">
-                            <div className="flex items-center gap-4 mb-4">
-                                <div className="w-10 h-10 bg-slate-50 rounded-lg flex items-center justify-center shrink-0">
-                                    <CreditCard className="w-5 h-5 text-slate-400" />
-                                </div>
-                                <p className="font-bold text-slate-800 text-sm">CHECKOUT FLOW</p>
-                            </div>
-                            <div className="flex gap-3">
-                                <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 flex-1 text-center">
-                                    <p className="text-xs font-bold text-slate-600">Bump 1</p>
-                                </div>
-                                <div className="bg-slate-50 border border-slate-200 rounded-lg p-3 flex-1 text-center">
-                                    <p className="text-xs font-bold text-slate-600">Bump 2</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex justify-center -my-2 relative z-10"><div className="h-6 w-px bg-slate-200"></div></div>
-                         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mt-2 shadow-sm flex items-center gap-4">
-                            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
-                                <TrendingUp className="w-5 h-5 text-blue-600" />
-                            </div>
-                            <div>
-                                <p className="font-bold text-slate-800 text-sm">One-Click Upsells</p>
-                                <p className="text-xs text-slate-500">2x Upsells + 1x Downsell</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Arrow */}
-                    <div className="hidden lg:flex items-center justify-center text-slate-600/50">
-                        <ArrowRight className="w-8 h-8" />
-                    </div>
-
-                    {/* Phase 3 */}
-                    <div className="flex-1 min-w-[300px] max-w-md w-full bg-slate-50 rounded-2xl p-8 border border-slate-200 relative shadow-xl hover:shadow-2xl transition-all duration-300">
-                        <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-green-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider shadow-lg shadow-green-500/30">
-                            Phase 03
-                        </div>
-                         <div className="mt-4 text-center">
-                            <div className="w-14 h-14 mx-auto bg-green-100 rounded-full flex items-center justify-center mb-5">
-                                <DollarSign className="w-7 h-7 text-green-600" />
-                            </div>
-                            <h4 className="text-2xl font-bold text-slate-900">Pure Profit</h4>
-                            <p className="text-sm text-slate-500 mt-2 mb-8">Backend High-Ticket Conversion</p>
-                        </div>
-
-                         <div className="bg-white border border-slate-100 rounded-xl p-5 mb-4 shadow-sm flex items-center gap-4 justify-center hover:border-green-200 transition-colors">
-                            <p className="font-bold text-slate-800 text-sm">VSL / Booking Page</p>
-                        </div>
-                        
-                        <div className="flex justify-center -my-2 relative z-10"><div className="h-6 w-px bg-slate-200"></div></div>
-
-                        <div className="grid grid-cols-2 gap-4 mt-2">
-                            <div className="bg-green-500 rounded-xl p-4 flex flex-col items-center justify-center text-white shadow-lg shadow-green-500/20 transform hover:-translate-y-1 transition-transform">
-                                <Phone className="w-5 h-5 mb-2" />
-                                <p className="font-bold text-sm">Call</p>
-                            </div>
-                            <div className="bg-white border border-slate-100 rounded-xl p-4 flex flex-col items-center justify-center text-slate-600 shadow-sm hover:bg-slate-50 transition-colors">
-                                <MessageSquare className="w-5 h-5 mb-2 text-slate-400" />
-                                <p className="font-bold text-sm">Nurture</p>
-                            </div>
-                        </div>
-                    </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(250px,auto)]">
+          
+          {/* Card 1 - Large */}
+          <div className="md:col-span-2 p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group overflow-hidden relative">
+             <div className="absolute top-0 right-0 p-8 opacity-20 group-hover:opacity-100 transition-opacity duration-500">
+                <Target className="w-32 h-32 text-brand-500 rotate-12" />
+             </div>
+             <div className="relative z-10 h-full flex flex-col justify-between">
+                <div className="w-12 h-12 rounded-xl bg-brand-500/10 flex items-center justify-center mb-6 border border-brand-500/20 text-brand-500">
+                  <Database className="w-6 h-6" />
                 </div>
-            </div>
+                <div>
+                    <h3 className="text-2xl font-bold text-white mb-3">Hyper-Targeted Lead Sourcing</h3>
+                    <p className="text-slate-400 leading-relaxed max-w-md">We scrape and enrich data from 15+ sources to identify companies that are actively looking for your services right now. No wasted ad spend.</p>
+                </div>
+             </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group">
+             <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center mb-6 border border-purple-500/20 text-purple-500">
+                  <Mail className="w-6 h-6" />
+             </div>
+             <h3 className="text-xl font-bold text-white mb-3">Cold Outreach Protocol</h3>
+             <p className="text-slate-400 text-sm">Multi-channel campaigns that land directly in the primary inbox, not spam.</p>
+          </div>
+
+          {/* Card 3 */}
+          <div className="p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group">
+             <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6 border border-blue-500/20 text-blue-500">
+                  <MessageSquare className="w-6 h-6" />
+             </div>
+             <h3 className="text-xl font-bold text-white mb-3">Appointment Setting</h3>
+             <p className="text-slate-400 text-sm">US-based setters trained to qualify leads and book them directly into your calendar.</p>
+          </div>
+
+          {/* Card 4 - Large */}
+          <div className="md:col-span-2 p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group overflow-hidden relative">
+             <div className="absolute -bottom-10 -right-10 opacity-10 group-hover:opacity-30 transition-opacity">
+                <BarChart3 className="w-64 h-64 text-white" />
+             </div>
+             <div className="relative z-10">
+                <div className="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-6 border border-green-500/20 text-green-500">
+                  <Zap className="w-6 h-6" />
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">The Conversion Ecosystem</h3>
+                <p className="text-slate-400 leading-relaxed max-w-lg">From VSL landing pages to automated nurture sequences, we build the assets that turn "interested" into "paid".</p>
+                
+                <div className="mt-8 flex gap-4">
+                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300">
+                        Higher conversion rates
+                    </div>
+                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300">
+                        Lower CPA
+                    </div>
+                </div>
+             </div>
+          </div>
+
         </div>
+      </div>
     </section>
   );
 };
