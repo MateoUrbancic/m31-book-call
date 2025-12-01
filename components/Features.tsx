@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target, Zap, BarChart3, Rocket, Mail, Database, Search, MessageSquare, ArrowDown, ArrowRight, MousePointer2, CreditCard, TrendingUp, Video, Phone } from 'lucide-react';
+import { ArrowDown, ArrowRight, MousePointer2, CreditCard, TrendingUp, Video, Phone } from 'lucide-react';
 
 const Features: React.FC = () => {
   return (
@@ -31,7 +31,7 @@ const Features: React.FC = () => {
                                 <div className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 text-xs font-bold">META ADS</div>
                             </div>
                             <ArrowDown className="text-slate-700 w-5 h-5" />
-                            <div className="w-full h-40 bg-gradient-to-br from-amber-400 to-orange-600 rounded-xl shadow-2xl shadow-orange-500/10 flex flex-col items-center justify-center text-center p-6 group cursor-default hover:scale-[1.02] transition-transform">
+                            <div className="h-40 w-full bg-gradient-to-br from-amber-400 to-orange-600 rounded-xl shadow-2xl shadow-orange-500/10 flex flex-col items-center justify-center text-center p-6 group cursor-default hover:scale-[1.02] transition-transform">
                                 <MousePointer2 className="w-10 h-10 text-white mb-3" />
                                 <h3 className="text-2xl font-bold text-white mb-1">Sales Page</h3>
                                 <div className="bg-black/20 text-white/90 text-[10px] font-bold px-3 py-1 rounded-full uppercase">Low-Ticket Offer</div>
@@ -61,7 +61,7 @@ const Features: React.FC = () => {
                             </div>
                         </div>
 
-                        <div className="bg-slate-950/50 border border-orange-500/10 rounded-2xl p-6 min-h-[340px] flex justify-center items-start gap-4 relative">
+                        <div className="bg-slate-950/50 border border-orange-500/10 rounded-2xl p-6 min-h-[340px] flex justify-center gap-4 relative">
                                 {/* Checkout Group */}
                                 <div className="flex flex-col items-center gap-3 mt-6">
                                     <div className="w-28 h-24 bg-blue-600 rounded-xl shadow-lg shadow-blue-500/20 flex flex-col items-center justify-center text-center p-2">
@@ -157,11 +157,11 @@ const Features: React.FC = () => {
                                     <div className="bg-slate-800 border border-slate-700 text-slate-500 text-[10px] font-bold px-2 py-0.5 rounded">NO</div>
                                     <ArrowDown className="text-slate-700 w-4 h-4" />
                                     
-                                    <div className="w-28 py-2 bg-emerald-200 rounded-lg text-emerald-900 text-[10px] font-bold text-center mb-1">Thank You + System</div>
+                                    <div className="w-28 py-2 bg-emerald-200 rounded-lg text-emerald-900 text-[10px] font-bold text-center mb-1">Thank You + Database</div>
                                     
                                     {/* WhatsApp + Setters */}
                                     <div className="w-28 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 text-[10px] font-bold text-center shadow-lg relative z-10">
-                                        <span className="text-green-400">WhatsApp + Setters</span>
+                                        <span className="text-green-400">WhatsApp + Email + SMS</span>
                                     </div>
                                 </div>
 
@@ -174,8 +174,8 @@ const Features: React.FC = () => {
                                         <Phone className="w-5 h-5 text-white mb-2" />
                                         <span className="text-white font-bold text-sm">Sales Call</span>
                                     </div>
-                                    <ArrowDown className="text-slate-700 w-4 h-4" />
-                                    <div className="bg-green-600 border border-green-500 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase shadow-lg shadow-green-500/20">YES</div>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
@@ -191,67 +191,6 @@ const Features: React.FC = () => {
 
                 </div>
             </div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(250px,auto)]">
-          
-          {/* Card 1 - Large */}
-          <div className="md:col-span-2 p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group overflow-hidden relative">
-             <div className="absolute top-0 right-0 p-8 opacity-20 group-hover:opacity-100 transition-opacity duration-500">
-                <Target className="w-32 h-32 text-brand-500 rotate-12" />
-             </div>
-             <div className="relative z-10 h-full flex flex-col justify-between">
-                <div className="w-12 h-12 rounded-xl bg-brand-500/10 flex items-center justify-center mb-6 border border-brand-500/20 text-brand-500">
-                  <Database className="w-6 h-6" />
-                </div>
-                <div>
-                    <h3 className="text-2xl font-bold text-white mb-3">Hyper-Targeted Lead Sourcing</h3>
-                    <p className="text-slate-400 leading-relaxed max-w-md">We scrape and enrich data from 15+ sources to identify companies that are actively looking for your services right now. No wasted ad spend.</p>
-                </div>
-             </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group">
-             <div className="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center mb-6 border border-purple-500/20 text-purple-500">
-                  <Mail className="w-6 h-6" />
-             </div>
-             <h3 className="text-xl font-bold text-white mb-3">Cold Outreach Protocol</h3>
-             <p className="text-slate-400 text-sm">Multi-channel campaigns that land directly in the primary inbox, not spam.</p>
-          </div>
-
-          {/* Card 3 */}
-          <div className="p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group">
-             <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6 border border-blue-500/20 text-blue-500">
-                  <MessageSquare className="w-6 h-6" />
-             </div>
-             <h3 className="text-xl font-bold text-white mb-3">Appointment Setting</h3>
-             <p className="text-slate-400 text-sm">US-based setters trained to qualify leads and book them directly into your calendar.</p>
-          </div>
-
-          {/* Card 4 - Large */}
-          <div className="md:col-span-2 p-8 rounded-3xl bg-slate-900/50 border border-white/5 hover:border-brand-500/30 transition-all group overflow-hidden relative">
-             <div className="absolute -bottom-10 -right-10 opacity-10 group-hover:opacity-30 transition-opacity">
-                <BarChart3 className="w-64 h-64 text-white" />
-             </div>
-             <div className="relative z-10">
-                <div className="w-12 h-12 rounded-xl bg-green-500/10 flex items-center justify-center mb-6 border border-green-500/20 text-green-500">
-                  <Zap className="w-6 h-6" />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-3">The Conversion Ecosystem</h3>
-                <p className="text-slate-400 leading-relaxed max-w-lg">From VSL landing pages to automated nurture sequences, we build the assets that turn "interested" into "paid".</p>
-                
-                <div className="mt-8 flex gap-4">
-                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300">
-                        Higher conversion rates
-                    </div>
-                    <div className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-xs font-mono text-slate-300">
-                        Lower CPA
-                    </div>
-                </div>
-             </div>
-          </div>
-
         </div>
       </div>
     </section>
