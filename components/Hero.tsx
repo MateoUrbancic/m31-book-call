@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         </h2>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
-          We'll build and manage the entire system (funnel and ads) so you can acquire new customers and clients without your direct time or energy inputs. Stop relying on organic traffic. <strong style={{ color: '#cccccc' }}>Guaranteed to hit performance targets in 90 days or a full refund.</strong>
+          We'll build an entire system that will convert cold-traffic into new customers and clients without your direct time or energy inputs. Stop relying on organic traffic. <strong style={{ color: '#cccccc' }}>Guaranteed 50K per month in 90 days or a full refund.</strong>
         </p>
 
         {/* VSL Container */}

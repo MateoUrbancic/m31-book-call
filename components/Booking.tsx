@@ -30,16 +30,16 @@ const Booking: React.FC = () => {
                 STEP 3 OF 3: THE STRATEGY SESSION
               </div>
               <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6 leading-tight">
-                Ready To Scale Your Agency?
+                Ready To Scale Your Info-Business?
               </h2>
               <p className="text-slate-400 text-lg mb-10 leading-relaxed">
-                Book a 15-minute introductory call to see if our infrastructure is compatible with your business model. We only partner with 5 agencies per month to ensure results.
+                Book a 15-minute introductory call to see if a Low-Ticket System is compatible with your current offer. Because this is a "Done-For-You" build, we only partner with a few select clients per quarter to ensure we deliver premium results and service.
               </p>
 
               <div className="space-y-6">
                  {[
-                   "Crystal clear roadmap to $100k/mo",
-                   "Identify bottlenecks in your current funnel",
+                   "Map out your custom Low-Ticket Funnel strategy",
+                   "Audit your current offer for cold traffic potential ",
                    "See our live client results & backend systems"
                  ].map((item, i) => (
                    <div key={i} className="flex items-center gap-4">
@@ -62,7 +62,7 @@ const Booking: React.FC = () => {
                     <div className="flex gap-0.5 text-yellow-500 mb-0.5">
                       {'★★★★★'}
                     </div>
-                    <p className="text-xs text-slate-500 font-medium">Rated 4.9/5 by 50+ Agencies</p>
+                    <p className="text-xs text-slate-500 font-medium">Rated 4.9/5 by 50+ Coaches & Creators</p>
                   </div>
                 </div>
               </div>
