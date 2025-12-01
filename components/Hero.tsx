@@ -24,9 +24,8 @@ const Hero: React.FC = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> $50,000 Of New Customers & Clients For You Each Month</span> With a Low-Ticket System & Meta Ads
         </h2>
 
-        <p className="text-lg md:text-xl text-slate-400 max-w-2xl mb-12 leading-relaxed font-light">
-          We build automated client acquisition infrastructures for B2B agencies. 
-          Stop relying on referrals. Start predicting revenue.
+        <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
+          We'll build and manage the entire system (funnel and ads) so you can acquire new customers and clients without needing your direct time or energy inputs. Stop relying on organic traffic. <strong style={{ color: '#cccccc' }}>Guaranteed to hit performance targets in 90 days or a full refund.</strong>
         </p>
 
         {/* VSL Container */}
