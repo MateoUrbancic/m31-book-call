@@ -13,7 +13,7 @@ const MathBreakdown: React.FC = () => {
                     Here's Exactly How The Math Works:
                 </h2>
                 <p className="text-slate-400 text-lg">
-                    You're not just selling a $13 product. You're selling a system.
+                    For example: let's say you're selling a $13 product. The cost per customer will on average be 2X the product price, so $26 in this case.
                 </p>
             </div>
 

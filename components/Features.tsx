@@ -12,9 +12,16 @@ const Features: React.FC = () => {
         </div>
 
         {/* NEW GRAPH: Detailed Flowchart - WIDER CONTAINER */}
-        <div className="w-full max-w-[1400px] mx-auto px-4 md:px-6 mb-20">
-            <div className="w-full overflow-x-auto pb-6 select-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-                <div className="min-w-[1000px] lg:min-w-0 lg:w-full bg-slate-900/40 rounded-3xl p-8 pt-24 border border-white/5 flex justify-center gap-4 relative items-start">
+        <div className="w-full max-w-[1400px] mx-auto px-4 md:px-6 mb-20 relative group">
+            
+            {/* Mobile Scroll Indicator */}
+            <div className="lg:hidden flex items-center justify-center gap-2 mb-4 text-brand-400 animate-pulse">
+                <span className="text-xs font-bold uppercase tracking-widest">Swipe to view full system</span>
+                <ArrowRight className="w-4 h-4" />
+            </div>
+
+            <div className="w-full overflow-x-auto pb-6 select-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] relative z-10">
+                <div className="min-w-max lg:min-w-0 lg:w-full bg-slate-900/40 rounded-3xl p-8 pt-24 border border-white/5 flex justify-start lg:justify-center gap-4 relative items-start">
                     
                     {/* Section 1: Acquisition */}
                     <div className="relative shrink-0 group w-[260px] flex flex-col gap-6">
@@ -134,7 +141,7 @@ const Features: React.FC = () => {
                                 </defs>
                                 {/* Curve from WhatsApp (left col bottom) to Sales Call (right col top) */}
                                 <path 
-                                    d="M 140 288 C 180 288, 240 240, 240 138" 
+                                    d="M 136 246 C 180 246, 240 220, 240 138" 
                                     fill="none" 
                                     stroke="#64748b" 
                                     strokeWidth="2" 
@@ -161,7 +168,7 @@ const Features: React.FC = () => {
                                     
                                     {/* WhatsApp + Setters */}
                                     <div className="w-28 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 text-[10px] font-bold text-center shadow-lg relative z-10">
-                                        <span className="text-green-400">WhatsApp + Email + SMS</span>
+                                        <span className="text-green-400">WhatsApp + Setters</span>
                                     </div>
                                 </div>
 
@@ -175,6 +182,8 @@ const Features: React.FC = () => {
                                         <span className="text-white font-bold text-sm">Sales Call</span>
                                     </div>
                                     
+                                    <ArrowDown className="text-slate-700 w-4 h-4" />
+                                    <div className="bg-green-600 text-white text-[10px] font-bold px-2 py-1 rounded">YES</div>
                                     
                                 </div>
                             </div>
@@ -191,6 +200,9 @@ const Features: React.FC = () => {
 
                 </div>
             </div>
+            
+            {/* Fade Overlay for Mobile to indicate scrollability */}
+            <div className="lg:hidden absolute top-12 right-0 bottom-6 w-16 bg-gradient-to-l from-slate-950 via-slate-950/50 to-transparent pointer-events-none z-20"></div>
         </div>
       </div>
     </section>
