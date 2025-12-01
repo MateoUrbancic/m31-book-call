@@ -28,8 +28,8 @@ const App: React.FC = () => {
         <Features />
         <MathBreakdown />
         <ImplementationProcess />
-        <Results />
-        <Qualifiers />
+        //<Results />
+        //<Qualifiers />
         <Booking />
         <FAQ />
       </main>

@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
                     <div className="bg-slate-900/40 backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:bg-slate-900/60 transition-colors group">
                         <div className="flex items-start gap-4 mb-4">
                             <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center shrink-0 shadow-lg shadow-orange-500/20">
-                                <span className="font-bold text-white text-lg">DC</span>
+                                <span className="font-bold text-white text-lg">SP</span>
                             </div>
                             <div>
                                 <h4 className="font-bold text-white text-lg leading-none mb-1">Spencer Pawliw</h4>
@@ -68,11 +68,11 @@ const Hero: React.FC = () => {
                             </div>
                         </div>
                         <p className="text-slate-300 italic text-sm leading-relaxed mb-6">
-                            "We needed a predictable system to scale our B2B outreach. Marketing 31 delivered exactly that. No fluff, just results."
+                            "Just want to say you've done a fire ass job. Like the value your providing is crazy. You're a killer dude."
                         </p>
                         <div className="flex items-center gap-2 text-green-400 text-sm font-bold bg-green-400/5 px-3 py-2 rounded-lg border border-green-400/10">
                             <TrendingUp className="w-4 h-4" />
-                            <span>Generated $45k in First Month</span>
+                            <span>Converting Cold Traffic Into Origins & Evolve Members @ 3.5X ROAS</span>
                         </div>
                     </div>
                     
