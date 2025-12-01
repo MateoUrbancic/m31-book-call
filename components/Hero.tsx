@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Rocket, BarChart3 } from 'lucide-react';
+import { Play, Volume2, TrendingUp, Users, DollarSign } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
 
         <h2 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[1.1] mb-4 tracking-tighter text-white max-w-7xl mx-auto">
             We'll Get You
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> $50,000 Of New Customers & Clients Each Month</span> With a Low-Ticket System & Meta Ads
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> $50,000 Of<br />New Customers & Clients Each Month</span> With a Low-Ticket System & Meta Ads
         </h2>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
@@ -54,8 +54,29 @@ const Hero: React.FC = () => {
               <p className="text-xs text-slate-500 font-bold uppercase tracking-[0.2em] mb-8 text-center">Trusted by Industry Leaders</p>
               
               <div className="grid md:grid-cols-3 gap-6 text-left">
-                  
-                  {/* Card 1 */}
+
+
+                    {/* Card 1 */}
+                    <div className="bg-slate-900/40 backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:bg-slate-900/60 transition-colors group">
+                        <div className="flex items-start gap-4 mb-4">
+                            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center shrink-0 shadow-lg shadow-orange-500/20">
+                                <span className="font-bold text-white text-lg">DC</span>
+                            </div>
+                            <div>
+                                <h4 className="font-bold text-white text-lg leading-none mb-1">Spencer Pawliw</h4>
+                                <p className="text-[10px] md:text-xs text-slate-500 uppercase tracking-wide font-bold">#1 COMMUNITY ON SKOOL, EVOLVE</p>
+                            </div>
+                        </div>
+                        <p className="text-slate-300 italic text-sm leading-relaxed mb-6">
+                            "We needed a predictable system to scale our B2B outreach. Marketing 31 delivered exactly that. No fluff, just results."
+                        </p>
+                        <div className="flex items-center gap-2 text-green-400 text-sm font-bold bg-green-400/5 px-3 py-2 rounded-lg border border-green-400/10">
+                            <TrendingUp className="w-4 h-4" />
+                            <span>Generated $45k in First Month</span>
+                        </div>
+                    </div>
+                    
+                  {/* Card 2 */}
                   <div className="bg-slate-900/40 backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:bg-slate-900/60 transition-colors group">
                       <div className="flex items-start gap-4 mb-4">
                           <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shrink-0 shadow-lg shadow-blue-500/20">
@@ -75,7 +96,7 @@ const Hero: React.FC = () => {
                       </div>
                   </div>
 
-                  {/* Card 2 */}
+                  {/* Card 3 */}
                   <div className="bg-slate-900/40 backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:bg-slate-900/60 transition-colors group">
                       <div className="flex items-start gap-4 mb-4">
                           <div className="w-12 h-12 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center shrink-0 shadow-lg shadow-pink-500/20">
@@ -90,30 +111,11 @@ const Hero: React.FC = () => {
                           "I am happy with the sales funnel you created. You are skilled and creative. I am happy to write a letter of recommendation attesting to that."
                       </p>
                       <div className="flex items-center gap-2 text-green-400 text-sm font-bold bg-green-400/5 px-3 py-2 rounded-lg border border-green-400/10">
-                          <Rocket className="w-4 h-4" />
+                          <Play className="w-4 h-4" />
                           <span>Built Low-Ticket System for Organic Audience</span>
                       </div>
                   </div>
 
-                  {/* Card 3 */}
-                   <div className="bg-slate-900/40 backdrop-blur-sm border border-white/5 rounded-2xl p-6 hover:bg-slate-900/60 transition-colors group">
-                      <div className="flex items-start gap-4 mb-4">
-                          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center shrink-0 shadow-lg shadow-orange-500/20">
-                              <span className="font-bold text-white text-lg">DC</span>
-                          </div>
-                          <div>
-                              <h4 className="font-bold text-white text-lg leading-none mb-1">David Chen</h4>
-                              <p className="text-[10px] md:text-xs text-slate-500 uppercase tracking-wide font-bold">Founder, ScaleSaaS</p>
-                          </div>
-                      </div>
-                      <p className="text-slate-300 italic text-sm leading-relaxed mb-6">
-                          "We needed a predictable system to scale our B2B outreach. Marketing 31 delivered exactly that. No fluff, just results."
-                      </p>
-                      <div className="flex items-center gap-2 text-green-400 text-sm font-bold bg-green-400/5 px-3 py-2 rounded-lg border border-green-400/10">
-                          <BarChart3 className="w-4 h-4" />
-                          <span>Generated $45k in First Month</span>
-                      </div>
-                  </div>
 
               </div>
            </div>
