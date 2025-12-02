@@ -168,7 +168,7 @@ const Features: React.FC = () => {
                                     
                                     {/* WhatsApp + Setters */}
                                     <div className="w-28 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-300 text-[10px] font-bold text-center shadow-lg relative z-10">
-                                        <span className="text-green-400">WhatsApp + Setters</span>
+                                        <span className="text-green-400">WhatsApp + Email + SMS + Setters</span>
                                     </div>
                                 </div>
 
