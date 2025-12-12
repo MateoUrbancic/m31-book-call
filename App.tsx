@@ -14,6 +14,7 @@ import TrustGap from './components/TrustGap';
 import FailedSystems from './components/FailedSystems';
 import MathBreakdown from './components/MathBreakdown';
 import ImplementationProcess from './components/ImplementationProcess';
+import YoutubeFeed from './components/YoutubeFeed';
 
 const App: React.FC = () => {
   return (
@@ -33,7 +34,12 @@ const App: React.FC = () => {
         <Booking />
         */}
         <Booking />
+        <YoutubeFeed />
+
+        {/*
         <FAQ />
+        */}
+        
       </main>
       <Footer />
     </div>
