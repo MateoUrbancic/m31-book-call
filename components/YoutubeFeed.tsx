@@ -5,7 +5,7 @@ import { Youtube, ExternalLink, Play, Clock, ArrowRight } from 'lucide-react';
 // REPLACE THIS with your actual YouTube Channel ID (starts with UC...)
 // You can find it in YouTube Studio > Settings > Channel > Advanced Settings
 // or by viewing the source of your channel page and searching for "externalId"
-const CHANNEL_ID = 'UCRoJeyAk-MKsvd5POeAsQQA'; 
+const CHANNEL_ID: string = 'UCRoJeyAk-MKsvd5POeAsQQA'; 
 
 interface Video {
   id: string;

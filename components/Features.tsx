@@ -141,7 +141,7 @@ const Features: React.FC = () => {
                                 </defs>
                                 {/* Curve from WhatsApp (left col bottom) to Sales Call (right col top) */}
                                 <path 
-                                    d="M 136 246 C 180 246, 240 220, 240 138" 
+                                    d="M 136 312 C 180 312, 240 260, 240 148" 
                                     fill="none" 
                                     stroke="#64748b" 
                                     strokeWidth="2" 
@@ -182,8 +182,8 @@ const Features: React.FC = () => {
                                         <span className="text-white font-bold text-sm">Sales Call</span>
                                     </div>
                                     
-                                    <ArrowDown className="text-slate-700 w-4 h-4" />
-                                    <div className="bg-green-600 text-white text-[10px] font-bold px-2 py-1 rounded">YES</div>
+                                    
+                                    
                                     
                                 </div>
                             </div>
