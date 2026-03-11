@@ -73,34 +73,116 @@ const YoutubeFeed: React.FC = () => {
 
   useEffect(() => {
     const fetchVideos = async () => {
-      // If user hasn't set a channel ID, stick to fallback
       if (CHANNEL_ID === 'UC_PLACEHOLDER_CHANNEL_ID') {
           setLoading(false);
           return;
       }
 
+      const rssUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
+      
       try {
-        const rssUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${CHANNEL_ID}`;
-        const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
-        
-        const response = await fetch(apiUrl);
-        const data = await response.json();
+        // Attempt 1: rss2json (sometimes fails or rate limits)
+        try {
+          const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+          const response = await fetch(apiUrl);
+          const data = await response.json();
 
-        if (data.status === 'ok' && data.items) {
-          const mappedVideos: Video[] = data.items.slice(0, 3).map((item: any) => ({
-             id: item.guid,
-             videoId: item.guid.split(':')[2],
-             title: item.title,
-             link: item.link,
-             thumbnail: `https://img.youtube.com/vi/${item.guid.split(':')[2]}/maxresdefault.jpg`,
-             pubDate: item.pubDate,
-             author: item.author
-          }));
-          setVideos(mappedVideos);
+          if (data.status === 'ok' && data.items && data.items.length > 0) {
+            const mappedVideos: Video[] = data.items.slice(0, 3).map((item: any) => ({
+               id: item.guid,
+               videoId: item.guid.split(':')[2],
+               title: item.title,
+               link: item.link,
+               thumbnail: `https://img.youtube.com/vi/${item.guid.split(':')[2]}/maxresdefault.jpg`,
+               pubDate: item.pubDate,
+               author: item.author
+            }));
+            setVideos(mappedVideos);
+            setLoading(false);
+            return;
+          }
+        } catch (e) {
+          console.warn("rss2json failed, trying fallback", e);
         }
+
+        // Attempt 2: XML via codetabs proxy
+        try {
+          const proxyUrl = `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(rssUrl)}`;
+          const response = await fetch(proxyUrl);
+          const text = await response.text();
+          
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(text, "text/xml");
+          const entries = Array.from(xmlDoc.querySelectorAll("entry"));
+          
+          if (entries.length > 0) {
+            const mappedVideos: Video[] = entries.slice(0, 3).map(item => {
+              const videoId = item.getElementsByTagName("yt:videoId")[0]?.textContent || 
+                              item.querySelector("videoId")?.textContent || "";
+              const title = item.querySelector("title")?.textContent || "";
+              const link = item.querySelector("link")?.getAttribute("href") || "";
+              const pubDate = item.querySelector("published")?.textContent || "";
+              const author = item.querySelector("author > name")?.textContent || "";
+              
+              return {
+                id: videoId,
+                videoId,
+                title,
+                link,
+                thumbnail: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+                pubDate,
+                author
+              };
+            });
+            
+            setVideos(mappedVideos);
+            setLoading(false);
+            return;
+          }
+        } catch (e) {
+          console.warn("codetabs proxy failed", e);
+        }
+
+        // Attempt 3: XML via corsproxy.io
+        try {
+          const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(rssUrl)}`;
+          const response = await fetch(proxyUrl);
+          const text = await response.text();
+          
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(text, "text/xml");
+          const entries = Array.from(xmlDoc.querySelectorAll("entry"));
+          
+          if (entries.length > 0) {
+            const mappedVideos: Video[] = entries.slice(0, 3).map(item => {
+              const videoId = item.getElementsByTagName("yt:videoId")[0]?.textContent || 
+                              item.querySelector("videoId")?.textContent || "";
+              const title = item.querySelector("title")?.textContent || "";
+              const link = item.querySelector("link")?.getAttribute("href") || "";
+              const pubDate = item.querySelector("published")?.textContent || "";
+              const author = item.querySelector("author > name")?.textContent || "";
+              
+              return {
+                id: videoId,
+                videoId,
+                title,
+                link,
+                thumbnail: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+                pubDate,
+                author
+              };
+            });
+            
+            setVideos(mappedVideos);
+            setLoading(false);
+            return;
+          }
+        } catch (e) {
+          console.warn("corsproxy.io failed", e);
+        }
+
       } catch (error) {
         console.error("Failed to fetch YouTube videos:", error);
-        // Silently fail to fallback
       } finally {
         setLoading(false);
       }
