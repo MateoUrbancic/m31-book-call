@@ -19,10 +19,10 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">FOR ESTABLISHED COACHES & B2B SERVICE PROVIDERS</span>
         </div>
 
-        <h3 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[1.1] mb-4 tracking-tighter text-white max-w-7xl mx-auto">
-            We'll Install a Low-Ticket Product Into Your Business, Sell It Via Facebook Ads And 
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> Use It To Book You 1 To 5 Ultra-Qualified Calls Each Day<br className="hidden md:block" /> </span>
-        </h3>
+        <h4 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[1.1] mb-4 tracking-tighter text-white max-w-7xl mx-auto">
+            We'll Install a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">$10 Product</span> Into Your Business, Sell It Via <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">Meta Ads</span> & Book You
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> 1-5 Qualified Calls Each Day</span>
+        </h4>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
           We'll build an entire system that converts cold-traffic into new customers and clients without your direct time or energy inputs. Stop relying solely on organic traffic. <strong style={{ color: '#cccccc' }}>Guaranteed 50K in new revenue each month or your money back.</strong>
