@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         </h4>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
-          We'll build an entire system that converts cold-traffic into new customers and clients without your direct time or energy inputs. Stop relying solely on organic traffic. <strong style={{ color: '#cccccc' }}>Guaranteed 50K in new revenue each month or your money back.</strong>
+          We guarantee you'll make more than you pay us + your ad spend, <strong className="text-white">or we'll give you a full refund.</strong>
         </p>
 
         {/* VSL Container */}
