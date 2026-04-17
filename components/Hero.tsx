@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
   const [activeCaseStudy, setActiveCaseStudy] = useState<(typeof caseStudies)[0] | null>(null);
 
   return (
-    <section className="relative pt-32 pb-20 md:pt-48 md:pb-24 overflow-hidden border-b border-white/5">
+    <section className="relative pt-6 pb-20 md:pt-48 md:pb-24 overflow-hidden border-b border-white/5 mt-16 md:mt-0">
       {/* Background Gradients */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-brand-500/10 rounded-full blur-[120px] -z-10" />
       <div className="absolute bottom-0 right-0 w-[600px] h-[400px] bg-accent-500/5 rounded-full blur-[100px] -z-10" />
@@ -79,21 +79,21 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-4 md:px-6 flex flex-col items-center text-center">
         
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/50 border border-white/10 backdrop-blur-md mb-8 animate-fade-in-up hover:border-brand-500/50 transition-colors cursor-default">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/50 border border-white/10 backdrop-blur-md mb-4 md:mb-8 animate-fade-in-up hover:border-brand-500/50 transition-colors cursor-default">
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
           </span>
-          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">FOR ESTABLISHED COACHES & B2B SERVICE PROVIDERS</span>
+          <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest leading-normal">FOR ESTABLISHED COACHES & B2B SERVICE PROVIDERS</span>
         </div>
 
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-display font-bold leading-[1.1] mb-4 tracking-tighter text-white max-w-7xl mx-auto">
-            We'll Sell a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">$10 Product</span> For Your Business Via <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">Meta Ads</span> & Book You
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> 1-5 Calls Each Day With Your Ideal Clients</span>
+        <h1 className="text-4xl md:text-5xl lg:text-[81px] font-display font-bold leading-[1.2] mb-[15px] tracking-tighter text-white !w-full !max-w-full lg:!max-w-[1050px] !h-auto lg:!h-[323px] mx-auto overflow-hidden sm:overflow-visible relative shrink-0">
+            We'll Sell a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 block sm:inline-block w-full sm:w-auto break-words whitespace-normal" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'inline-block' }}>$10 Product</span> For Your Business Via <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 block sm:inline-block w-full sm:w-auto break-words whitespace-normal" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'inline-block' }}>Meta Ads</span> & Book You
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 block sm:inline-block w-full sm:w-auto break-words whitespace-normal" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'inline-block' }}> 1-5 Calls Each Day With Your Ideal Clients</span>
         </h1>
 
-        <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
-          We guarantee you'll make more than you pay us + your ad spend, <strong className="text-white">or we'll give you a full refund.</strong>
+        <p className="text-lg md:text-[24px] text-slate-400 !w-full !max-w-full lg:!max-w-[1111px] mb-[47px] leading-relaxed font-light text-center mx-auto px-4">
+          We guarantee an ROI, <strong className="text-white">or we'll give you a full refund.</strong>
         </p>
 
         {/* VSL Container */}
