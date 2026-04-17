@@ -87,10 +87,10 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">FOR ESTABLISHED COACHES & B2B SERVICE PROVIDERS</span>
         </div>
 
-        <h4 className="text-4xl md:text-6xl lg:text-8xl font-display font-bold leading-[1.1] mb-4 tracking-tighter text-white max-w-7xl mx-auto">
+        <h1 className="text-4xl md:text-5xl lg:text-7xl font-display font-bold leading-[1.1] mb-4 tracking-tighter text-white max-w-7xl mx-auto">
             We'll Sell a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">$10 Product</span> For Your Business Via <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">Meta Ads</span> & Book You
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> 1-5 Calls Each Day With Your Ideal Clients</span>
-        </h4>
+        </h1>
 
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mb-12 leading-relaxed font-light">
           We guarantee you'll make more than you pay us + your ad spend, <strong className="text-white">or we'll give you a full refund.</strong>
