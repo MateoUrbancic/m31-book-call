@@ -87,9 +87,9 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest leading-normal">FOR ESTABLISHED COACHES & B2B SERVICE PROVIDERS</span>
         </div>
 
-        <h1 className="text-4xl md:text-5xl lg:text-[81px] font-display font-bold leading-[1.2] mb-[15px] tracking-tighter text-white !w-full !max-w-full lg:!max-w-[1050px] !h-auto lg:!h-[323px] mx-auto overflow-hidden sm:overflow-visible relative shrink-0">
-            We'll Sell a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 block sm:inline-block w-full sm:w-auto break-words whitespace-normal" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'inline-block' }}>$10 Product</span> For Your Business Via <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 block sm:inline-block w-full sm:w-auto break-words whitespace-normal" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'inline-block' }}>Meta Ads</span> & Book You
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600 block sm:inline-block w-full sm:w-auto break-words whitespace-normal" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'inline-block' }}> 1-5 Calls Each Day With Your Ideal Clients</span>
+        <h1 className="text-[32px] sm:text-4xl md:text-5xl lg:text-[81px] font-display font-bold leading-[1.3] md:leading-[1.2] mb-[60px] tracking-tighter text-white !w-full !max-w-full lg:!max-w-[1050px] !h-auto lg:!h-[323px] mx-auto relative shrink-0">
+            We'll Sell a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>$10 Product</span> For Your Business Via <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Meta Ads</span> & Book You
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600" style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}> 1-5 Calls Each Day With Your Ideal Clients</span>
         </h1>
 
         <p className="text-lg md:text-[24px] text-slate-400 !w-full !max-w-full lg:!max-w-[1111px] mb-[47px] leading-relaxed font-light text-center mx-auto px-4">
