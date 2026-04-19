@@ -27,8 +27,8 @@ const App: React.FC = () => {
         <FailedSystems />
         {/* <TrustGap /> */}
         <Features />
-        <ExactFunnels />
         <ImplementationProcess />
+        <ExactFunnels />
         {/*
         <Qualifiers />
         <Booking />

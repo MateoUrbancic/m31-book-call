@@ -13,7 +13,7 @@ const Features: React.FC = () => {
 
         {/* NEW GRAPH: Detailed Flowchart - WIDER CONTAINER */}
         <div className="w-full max-w-[1400px] mx-auto px-4 md:px-6 mb-20 relative group">
-            
+
             {/* Mobile Scroll Indicator */}
             <div className="lg:hidden flex items-center justify-center gap-2 mb-4 text-brand-400 animate-pulse">
                 <span className="text-xs font-bold uppercase tracking-widest">Swipe to view full system</span>
