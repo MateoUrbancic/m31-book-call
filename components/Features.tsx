@@ -7,7 +7,7 @@ const Features: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-20 text-center">
            <span className="text-brand-500 font-mono text-sm tracking-wider uppercase mb-4 block">The Mechanism</span>
-           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">The Low-Ticket System</h2>
+           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">The $10 Product System</h2>
            <p className="text-slate-400 max-w-2xl mx-auto text-center">We don't just run ads to a low-ticket product. We install a complete, end-to-end client acquisition system into your business.</p>
         </div>
 
@@ -60,7 +60,7 @@ const Features: React.FC = () => {
                     </div>
 
                     {/* Section 2: Liquidation */}
-                    <div className="relative flex-1 max-w-[600px] flex flex-col gap-6">
+                    <div className="relative shrink-0 w-[260px] flex flex-col gap-6">
                         {/* Label */}
                         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-16">
                             <div className="bg-slate-950 border border-orange-500/30 text-orange-400 text-[10px] font-bold px-4 py-1.5 rounded-full uppercase tracking-widest shadow-[0_0_15px_rgba(249,115,22,0.2)]">
@@ -79,39 +79,13 @@ const Features: React.FC = () => {
                                     <div className="w-28 py-2 bg-amber-400 rounded-lg text-amber-950 text-[10px] font-bold text-center shadow-lg shadow-amber-500/10">Order Bump #1</div>
                                     <div className="w-28 py-2 bg-amber-400 rounded-lg text-amber-950 text-[10px] font-bold text-center shadow-lg shadow-amber-500/10">Order Bump #2</div>
                                 </div>
-
-                                {/* Arrow */}
-                                <div className="pt-16 text-slate-700 shrink-0"><ArrowRight className="w-4 h-4" /></div>
-
-                                {/* Upsell 1 Group */}
-                                <div className="flex flex-col items-center gap-3 mt-6">
-                                    <div className="w-28 h-24 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg shadow-orange-500/20 flex flex-col items-center justify-center text-center p-2">
-                                        <TrendingUp className="w-5 h-5 text-white mb-2" />
-                                        <span className="text-white font-bold text-sm">Upsell 1</span>
-                                    </div>
-                                    <ArrowDown className="text-slate-700 w-4 h-4" />
-                                    <div className="w-28 py-2 bg-orange-700 rounded-lg text-orange-100 text-[10px] font-bold text-center">Downsell 1</div>
-                                </div>
-
-                                {/* Arrow */}
-                                <div className="pt-16 text-slate-700 shrink-0"><ArrowRight className="w-4 h-4" /></div>
-
-                                {/* Upsell 2 Group */}
-                                <div className="flex flex-col items-center gap-3 mt-6">
-                                    <div className="w-28 h-24 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl shadow-lg shadow-orange-500/20 flex flex-col items-center justify-center text-center p-2">
-                                        <TrendingUp className="w-5 h-5 text-white mb-2" />
-                                        <span className="text-white font-bold text-sm">Upsell 2</span>
-                                    </div>
-                                    <ArrowDown className="text-slate-700 w-4 h-4" />
-                                    <div className="w-28 py-2 bg-orange-700 rounded-lg text-orange-100 text-[10px] font-bold text-center">Downsell 2</div>
-                                </div>
                         </div>
 
                          {/* Description Text */}
                          <div className="px-2">
                              <h4 className="text-orange-400 font-bold mb-3 font-display">The Ad Spend Cover</h4>
                              <p className="text-slate-400 text-sm leading-relaxed">
-                                Through a sequence of order bumps and one-click upsells, we increase the Average Order Value of every customer. The goal is to liquidate your ad cost in 24 hours, giving you a list of new buyers for essentially $0.
+                                Through order bumps, we increase the Average Order Value of every customer. The goal is to liquidate your ad cost in 24 hours, giving you a list of new buyers for essentially $0.
                              </p>
                         </div>
                     </div>

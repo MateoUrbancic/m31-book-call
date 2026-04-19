@@ -12,7 +12,7 @@ import FAQ from './components/FAQ';
 import ContentTreadmill from './components/ContentTreadmill';
 import TrustGap from './components/TrustGap';
 import FailedSystems from './components/FailedSystems';
-import MathBreakdown from './components/MathBreakdown';
+import ExactFunnels from './components/MathBreakdown'; // Reused file
 import ImplementationProcess from './components/ImplementationProcess';
 import YoutubeFeed from './components/YoutubeFeed';
 
@@ -23,11 +23,11 @@ const App: React.FC = () => {
       <main>
         <Hero />
 
-        <ContentTreadmill />
+        {/* <ContentTreadmill /> */}
         <FailedSystems />
-        <TrustGap />
+        {/* <TrustGap /> */}
         <Features />
-        <MathBreakdown />
+        <ExactFunnels />
         <ImplementationProcess />
         {/*
         <Qualifiers />
