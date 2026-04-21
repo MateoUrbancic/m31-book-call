@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
           <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest leading-normal">FOR ESTABLISHED COACHES & B2B SERVICE PROVIDERS</span>
         </div>
 
-        <h1 className="text-[32px] sm:text-4xl md:text-5xl lg:text-[81px] font-display font-bold leading-[1.3] md:leading-[1.2] mb-6 md:mb-[10px] tracking-tighter text-white w-full lg:max-w-[1050px] mx-auto relative shrink-0">
+        <h1 className="text-[32px] sm:text-4xl md:text-5xl lg:text-[81px] font-display font-bold leading-[1.3] md:leading-[1.2] mb-6 md:mb-[10px] tracking-tighter text-white w-full lg:max-w-[1100px] mx-auto relative shrink-0">
             We'll Help You Sell a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">$10 Product</span> For Your Business Via <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">Meta Ads</span> & Book You
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600"> 10+ Calls A Day With Your Ideal Clients</span>
         </h1>
